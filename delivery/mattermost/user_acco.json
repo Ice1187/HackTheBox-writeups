@@ -1,0 +1,31 @@
+{
+    "id": "1fffetrbebbqdkto1br7hcizfw",
+    "create_at": 1617086695187,
+    "update_at": 1617086695187,
+    "delete_at": 0,
+    "username": "admin",
+    "auth_data": "",
+    "auth_service": "",
+    "email": "admin@delivery.htb",
+    "nickname": "",
+    "first_name": "",
+    "last_name": "",
+    "position": "",
+    "roles": "system_user",
+    "notify_props": {
+        "channel": "",
+        "desktop": "string",
+        "desktop_sound": "",
+        "email": "",
+        "first_name": "",
+        "mention_keys": "Admin",
+        "push": "string"
+    },
+    "last_password_update": 1617086695187,
+    "locale": "en",
+    "timezone": {
+        "automaticTimezone": "",
+        "manualTimezone": "",
+        "useAutomaticTimezone": "true"
+    }
+}

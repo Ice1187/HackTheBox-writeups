@@ -1,0 +1,21 @@
+[
+    {
+        "id": "com.mattermost.nps",
+        "homepage_url": "https://github.com/mattermost/mattermost-plugin-nps",
+        "support_url": "https://github.com/mattermost/mattermost-plugin-nps/issues",
+        "icon_path": "assets/icon.svg",
+        "version": "1.1.0",
+        "min_server_version": "5.16.0",
+        "webapp": {
+            "bundle_path": "/static/com.mattermost.nps/com.mattermost.nps_2b9470f8eb3de95b_bundle.js"
+        }
+    },
+    {
+        "id": "com.mattermost.plugin-channel-export",
+        "version": "0.2.2",
+        "min_server_version": "5.12.0",
+        "webapp": {
+            "bundle_path": "/static/com.mattermost.plugin-channel-export/com.mattermost.plugin-channel-export_a203ecebef7e7210_bundle.js"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+80: webpage
+	domain
+		helpdesk.delivery.htb  -- For unregistered users, please use HelpDesk to get in touch with our team. 
+		delivery.htb:8065      -- need an @delivery.htb email address to access
+	user/email (in #element)	
+		Jane Doe / jane@untitled.tld
+
+8065: mattermost
+	server
+		Version: 5.30.0
+		WebsocketSecurePort: 443
+	channel
+		credential: maildeliverer / Youve_G0t_Mail!
+
+80: helpdesk
+	email 
+		5440784@delivery.htb
+
+20: 
+	
+
+# TODO
+1. (X) Research mattermost v4 api, espcailly those about Diagnostics
+2. (X) Test if older version api is opened
+3. (X) Try to find some supporter's account or any account 
+4. (X) Find if any HelpDesk open port to interacte 
+5. (X) Try Websocket authentication challenge
+6. Look into Helpdesk. Hope to find some account info
+	- Open a ticket will give us ticket id and a <ticket_id>@delievry.htb email address. And it tells us if we want to add more information to the ticket just EMAIL TO that @delivery.htb email address
+	- So we use this EMAIL TO feature to get the verification mail of our matttermost account
+7. In the mattermost channel, root posted the credential which can use to login into osTicket and ssh to the server
+---- User Own ----
+

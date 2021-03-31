@@ -1,0 +1,14 @@
+> GET / HTTP/1.1
+> Host: 10.10.10.215
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 302 Found
+< Date: Wed, 10 Mar 2021 04:32:42 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Location: http://academy.htb/
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< 
+

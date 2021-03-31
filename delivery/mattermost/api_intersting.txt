@@ -1,0 +1,11 @@
+/api/v4
+	/config/client
+		"DiagnosticId":"kmoj1wy7a3ya5e9tanngn893ph"
+		"DiagnosticsEnabled":"true"
+		"EnableDiagnostics":"true",
+		"PluginsEnabled":"true",
+		"SupportEmail":"feedback@mattermost.com"
+		"TelemetryId":"kmoj1wy7a3ya5e9tanngn893ph",
+		"Version":"5.30.0"
+		"WebsocketPort":"80"
+		"WebsocketSecurePort":"443"

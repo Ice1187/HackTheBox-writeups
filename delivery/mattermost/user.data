@@ -1,0 +1,21 @@
+{
+  "email": "admin@delivery.htb",
+  "username": "admin",
+  "first_name": "",
+  "last_name": "",
+  "nickname": "",
+  "auth_data": "Admin",
+  "auth_service": "",
+  "password": "Admin.123456",
+  "locale": "",
+  "props": {},
+  "notify_props": {
+    "email": true,
+    "push": "string",
+    "desktop": "string",
+    "desktop_sound": true,
+    "mention_keys": "Admin",
+    "channel": true,
+    "first_name": true
+  }
+}

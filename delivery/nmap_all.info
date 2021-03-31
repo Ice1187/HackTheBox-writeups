@@ -1,0 +1,36 @@
+# Nmap 7.80 scan initiated Mon Mar 29 17:17:38 2021 as: nmap -sC -p- -v -o ./nmap_all.info 10.10.10.222
+Increasing send delay for 10.10.10.222 from 0 to 5 due to 37 out of 122 dropped probes since last increase.
+Nmap scan report for delivery.htb (10.10.10.222)
+Host is up (0.076s latency).
+Not shown: 65518 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+| ssh-hostkey: 
+|   2048 9c:40:fa:85:9b:01:ac:ac:0e:bc:0c:19:51:8a:ee:27 (RSA)
+|   256 5a:0c:c0:3b:9b:76:55:2e:6e:c4:f4:b9:5d:76:17:09 (ECDSA)
+|_  256 b7:9d:f7:48:9d:a2:f2:76:30:fd:42:d3:35:3a:80:8c (ED25519)
+80/tcp    open     http
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-title: Welcome
+3677/tcp  filtered roverlog
+8065/tcp  open     unknown
+11319/tcp filtered imip
+14629/tcp filtered unknown
+16638/tcp filtered unknown
+18149/tcp filtered unknown
+25511/tcp filtered unknown
+25794/tcp filtered unknown
+30164/tcp filtered unknown
+32328/tcp filtered unknown
+32405/tcp filtered unknown
+39395/tcp filtered unknown
+50854/tcp filtered unknown
+56396/tcp filtered unknown
+56998/tcp filtered unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Mar 29 17:23:47 2021 -- 1 IP address (1 host up) scanned in 369.60 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-03-30 14:15 CST
+Stats: 0:18:53 elapsed; 0 hosts completed (1 up), 1 undergoing UDP Scan
+UDP Scan Timing: About 0.95% done
