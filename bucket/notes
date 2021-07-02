@@ -1,0 +1,9 @@
+80: Webpage
+	- Call `window.parent.postMessage` with '*' as the targetOrigin parameter 
+
+## TODO
+1. Find what can `window.parent.postMessage(msg, targetOrigin)` do
+	- Using '*' as the targetOrigin has security concerns, and that's what the index.html do in the source.
+	- [https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage#security_concerns]
+2. CVE-2020-11984
+	https://packetstormsecurity.com/files/159009/Apache2-mod_proxy_uwsgi-Incorrect-Request-Handling.html	

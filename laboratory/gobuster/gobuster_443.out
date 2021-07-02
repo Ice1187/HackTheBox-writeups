@@ -1,0 +1,47 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://10.10.10.216:443
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ../tools/SecLists/Discovery/Web-Content/raft-small-words.txt
+[+] Negative Status codes:   404              [30/406]
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/04/08 22:53:34 Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 315] [--> https://10.10.10.216/images/]
+/.html                (Status: 403) [Size: 278]
+/.htm                 (Status: 403) [Size: 278]
+/assets               (Status: 301) [Size: 315] [--> https://10.10.10.216/assets/]
+/.                    (Status: 200) [Size: 7254]
+/.htaccess            (Status: 403) [Size: 278]
+/.htc                 (Status: 403) [Size: 278]
+/.html_var_DE         (Status: 403) [Size: 278]
+/server-status        (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/.html.               (Status: 403) [Size: 278]
+/.html.html           (Status: 403) [Size: 278]
+/.htpasswds           (Status: 403) [Size: 278]
+/.htm.                (Status: 403) [Size: 278]
+/.htmll               (Status: 403) [Size: 278]
+/.html.old            (Status: 403) [Size: 278]
+/.html.bak            (Status: 403) [Size: 278]
+/.ht                  (Status: 403) [Size: 278]
+/.htm.htm             (Status: 403) [Size: 278]
+/.htgroup             (Status: 403) [Size: 278]
+/.html1               (Status: 403) [Size: 278]
+/.hta                 (Status: 403) [Size: 278]
+/.html.printable      (Status: 403) [Size: 278]
+/.html.LCK            (Status: 403) [Size: 278]
+/.htm.LCK             (Status: 403) [Size: 278]
+/.htmls               (Status: 403) [Size: 278]
+/.htaccess.bak        (Status: 403) [Size: 278]
+/.html.php            (Status: 403) [Size: 278]
+/.htx                 (Status: 403) [Size: 278]
+/.html-               (Status: 403) [Size: 278]
+/.htlm                (Status: 403) [Size: 278]
+/.htm2                (Status: 403) [Size: 278]
+/.htuser              (Status: 403) [Size: 278]

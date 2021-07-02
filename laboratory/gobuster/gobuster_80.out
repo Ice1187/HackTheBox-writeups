@@ -1,0 +1,19 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.216
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ../tools/SecLists/Discovery/Web-Content/raft-small-words.txt
+[+] Negative Status codes:   302
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/04/08 22:46:19 Starting gobuster in directory enumeration mode
+===============================================================
+                                
+===============================================================
+2021/04/08 22:52:20 Finished
+===============================================================
+

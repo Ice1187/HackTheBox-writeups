@@ -1,0 +1,16 @@
+# Nmap 7.80 scan initiated Wed Mar 31 11:57:14 2021 as: nmap -v -sC -sV -oA nmap.log 10.10.10.212
+Nmap scan report for 10.10.10.212
+Host is up (0.081s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.41
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Did not follow redirect to http://bucket.htb/
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar 31 11:57:25 2021 -- 1 IP address (1 host up) scanned in 10.99 seconds
