@@ -1,0 +1,16 @@
+# Nmap 7.80 scan initiated Fri Jul  2 17:53:41 2021 as: nmap -sC -p- -vv -oN all-ports.nmap 10.10.10.242
+Nmap scan report for 10.10.10.242
+Host is up, received syn-ack (0.093s latency).
+Scanned at 2021-07-02 17:53:42 CST for 2346s
+Not shown: 65532 closed ports
+Reason: 65532 conn-refused
+PORT      STATE    SERVICE REASON
+22/tcp    open     ssh     syn-ack
+80/tcp    open     http    syn-ack
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title:  Emergent Medical Idea
+14938/tcp filtered unknown no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jul  2 18:32:48 2021 -- 1 IP address (1 host up) scanned in 2346.29 seconds

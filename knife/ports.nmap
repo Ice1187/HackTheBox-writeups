@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Fri Jul  2 17:52:42 2021 as: nmap -sC -sV -vv -oN ports.nmap 10.10.10.242
+Increasing send delay for 10.10.10.242 from 0 to 5 due to 28 out of 93 dropped probes since last increase.
+Nmap scan report for 10.10.10.242
+Host is up, received syn-ack (0.13s latency).
+Scanned at 2021-07-02 17:52:42 CST for 23s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title:  Emergent Medical Idea
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul  2 17:53:05 2021 -- 1 IP address (1 host up) scanned in 23.48 seconds
