@@ -1,0 +1,9 @@
+$ sudo /opt/john/run/john --wordlist=/opt/SecLists/Passwords/Leaked-Databases/rockyou.txt bruce.hash --format=drupal7
+Using default input encoding: UTF-8
+Loaded 1 password hash (Drupal7, $S$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 32768 for all loaded hashes
+Will run 2 OpenMP threads
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+booboo           (brucetherealadmin)     
+1g 0:00:00:00 DONE (2021-07-03 01:21) 1.785g/s 414.2p/s 414.2c/s 414.2C/s tiffany..harley
+
