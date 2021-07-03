@@ -1,0 +1,46 @@
+[92mENUM4LINUX - next generation[0m
+
+ ==========================
+|    Target Information    |
+ ==========================
+[94m[*] Target ........... 10.10.10.239[0m
+[94m[*] Username ......... ''[0m
+[94m[*] Random Username .. 'wtbjvfav'[0m
+[94m[*] Password ......... ''[0m
+[94m[*] Timeout .......... 5 second(s)[0m
+
+ ====================================
+|    Service Scan on 10.10.10.239    |
+ ====================================
+[94m[*] Checking LDAP[0m
+[91m[-] Could not connect to LDAP on 389/tcp: connection refused[0m
+[94m[*] Checking LDAPS[0m
+[91m[-] Could not connect to LDAPS on 636/tcp: connection refused[0m
+[94m[*] Checking SMB[0m
+[92m[+] SMB is accessible on 445/tcp[0m
+[94m[*] Checking SMB over NetBIOS[0m
+[92m[+] SMB over NetBIOS is accessible on 139/tcp[0m
+
+ ====================================================
+|    NetBIOS Names and Workgroup for 10.10.10.239    |
+ ====================================================
+[91m[-] Could not get NetBIOS names information via 'nmblookup': timed out[0m
+
+ =========================================
+|    SMB Dialect Check on 10.10.10.239    |
+ =========================================
+[94m[*] Check for legacy SMBv1 on 445/tcp[0m
+[92m[+] Server supports dialects higher SMBv1[0m
+
+ =========================================
+|    RPC Session Check on 10.10.10.239    |
+ =========================================
+[94m[*] Check for null session[0m
+[91m[-] Could not establish null session: STATUS_ACCESS_DENIED[0m
+[94m[*] Check for random user session[0m
+[91m[-] Could not establish random user session: STATUS_LOGON_FAILURE[0m
+[91m[-] Sessions failed, neither null nor user sessions were possible[0m
+
+[93m[!] Aborting remainder of tests since sessions failed, rerun with valid credentials[0m
+
+Completed after 6.82 seconds

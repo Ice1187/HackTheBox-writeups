@@ -1,0 +1,18 @@
+# Nmap 7.80 scan initiated Sat Jul  3 17:29:33 2021 as: nmap -vv -oN all-ports.nmap 10.10.10.239
+Increasing send delay for 10.10.10.239 from 0 to 5 due to 11 out of 21 dropped probes since last increase.
+Nmap scan report for love.htb (10.10.10.239)
+Host is up, received syn-ack (0.13s latency).
+Scanned at 2021-07-03 17:29:33 CST for 20s
+Not shown: 993 closed ports
+Reason: 993 conn-refused
+PORT     STATE SERVICE      REASON
+80/tcp   open  http         syn-ack
+135/tcp  open  msrpc        syn-ack
+139/tcp  open  netbios-ssn  syn-ack
+443/tcp  open  https        syn-ack
+445/tcp  open  microsoft-ds syn-ack
+3306/tcp open  mysql        syn-ack
+5000/tcp open  upnp         syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul  3 17:29:53 2021 -- 1 IP address (1 host up) scanned in 19.63 seconds
