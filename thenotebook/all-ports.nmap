@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Tue Jul  6 19:07:06 2021 as: nmap -o all-ports.nmap -p- -vv 10.10.10.230
+Nmap scan report for 10.10.10.230
+Host is up, received conn-refused (0.13s latency).
+Scanned at 2021-07-06 19:07:06 CST for 1247s
+Not shown: 65526 closed ports
+Reason: 65526 conn-refused
+PORT      STATE    SERVICE        REASON
+22/tcp    open     ssh            syn-ack
+80/tcp    open     http           syn-ack
+462/tcp   filtered datasurfsrvsec no-response
+1309/tcp  filtered jtag-server    no-response
+10010/tcp filtered rxapi          no-response
+24367/tcp filtered unknown        no-response
+24634/tcp filtered unknown        no-response
+46531/tcp filtered unknown        no-response
+50597/tcp filtered unknown        no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul  6 19:27:53 2021 -- 1 IP address (1 host up) scanned in 1246.50 seconds

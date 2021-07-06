@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 10.10.10.230
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://10.10.10.230/595e3a6d-6bf1-4fb6-aa16-96a06b6ea8ca/notes
+Cookie: auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NzA3MC9wcml2S2V5LmtleSJ9.eyJ1c2VybmFtZSI6ImljZTExODciLCJlbWFpbCI6ImljZTExODdAaWNlLmNvbSIsImFkbWluX2NhcCI6ZmFsc2V9.qGYHmp9kTL0ScBHg0ErvlL2sNGBL5qruneYvIjdYnDPmlzd-wxXzNBIg6e_7SprKNaVArhsCAK6wo7n8QmOf87PggTRLPGqArvE5VIE6p1FQ3s7a6X-276zuXNwzmGZi4FLX26mpI_PwgLOLM5vNLbTszsyXeJgVODMBDZZfUfk9-ih2IpVJt6kZYtQT-lcfayfQ2oChE7yWq62Xel1CfInP6_fwg5ylBJAdnNDwv6S5l87rqPOZJAMDaPcvslhUdxUO63NGGdgXOCCB56x-KM6ezgqjnYuyIm6QHUdVGpMKY4M8Leqxhtlo5VHBVu1oVpRVKpc8WUywgm0g_5-LeZ3bb9LDU2PxQuP5I67rJz2edI_O-R8E28R55CItuvQZZ7wVpr2wyS_cDjpGfgywKx-zD83j3Od4a5Yt7l6hVCSAM1QScgUJLhfod7OAflOo_DyMrB387TObhYKdYHhV5VbLdlHTzf7m3TTicmPkJDE7YW6WHWnHGhnk4fL2wkpiHo-EuPy_4PgH10g5KbEuNp0GkgWNZCnNgizEUgrP_L7IpWxVwyvrPk-le_oq70IXPooni4h65_P_bFaugpvuVbqO-YIb7RDPZKYvt6Bvh5IGetdjUuj93q-_WyHi53jYVklG13A_oXFrJspdxdJPqE8Xwq_kop8vNWHAFAqkYFo; uuid=595e3a6d-6bf1-4fb6-aa16-96a06b6ea8ca
+Upgrade-Insecure-Requests: 1
+

@@ -1,0 +1,31 @@
+# Nmap 7.80 scan initiated Tue Jul  6 21:47:49 2021 as: nmap --script=http-enum,vuln -oN scripts.nmap -vv 10.10.10.230
+Nmap scan report for 10.10.10.230
+Host is up, received reset ttl 63 (0.16s latency).
+Scanned at 2021-07-06 21:47:59 CST for 254s
+Not shown: 997 closed ports
+Reason: 997 resets
+PORT      STATE    SERVICE REASON
+22/tcp    open     ssh     syn-ack ttl 63
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+80/tcp    open     http    syn-ack ttl 63
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.10.230
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://10.10.10.230:80/register
+|     Form id: username
+|     Form action: /register
+|     
+|     Path: http://10.10.10.230:80/login
+|     Form id: username
+|_    Form action: /login
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+10010/tcp filtered rxapi   no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul  6 21:52:13 2021 -- 1 IP address (1 host up) scanned in 264.53 seconds
