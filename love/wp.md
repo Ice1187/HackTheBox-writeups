@@ -2,9 +2,9 @@
 ### Credential
 User   | Password            | Service | Notes
 -------|---------------------|---------|-------
+admin  | @LoveIsInTheAir!!!! | voting  |
 phoebe |                     |         |
 roy    |                     |         | email: roy@love.htb
-admin  | @LoveIsInTheAir!!!! | voting  |
 ### Host
 - hostname: staging.love.htb, love.htb, 
 - OS: Windows 10 Pro 19042
@@ -29,7 +29,7 @@ Vote Admin Creds admin: @LoveIsInTheAir!!!!
 
 ## Path
 ### User
-1. By trying at `/admin/index.php`, I found it has an user `admin`.
+1. By trying at `/admin/index.php`, I found it has an user `admin`, because error message is different from non-exist user.
 2. Found `staging.love.htb` has  an file upload webpage, which we can use to read the file on the server.
 ```
 # read-file.py
@@ -126,5 +126,5 @@ Microsoft Windows [Version 10.0.19042.867]
 C:\WINDOWS\system32>whoami
 nt authority\system
 ```
-2 Get root flag!
+2. Get root flag!
  
