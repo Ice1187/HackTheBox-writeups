@@ -1,5 +1,5 @@
+I don't know why all the info of the ports from`nmap` are mess up...
 
-Why all the info of the ports are mess up...
 ## Info
 ### Credentail
  User | Password          | Service | Note
@@ -7,6 +7,8 @@ Why all the info of the ports are mess up...
 kristi|Kr1sT!5h@Rp3xPl0r3!|
 
 ## Path
+### Andriod machine !?
+0. I haven't exploit any Android system yet, so I totally don't know what to expect. Though, I google and from [this article](https://www.hacknos.com/investigator-vulnhub-walkthrough/), I know that I should somehow connect via `adb` to gain root of the machine.
 ### User
 1. From the HTB page, we know it is an Android machine.
 2. From nmap, it is running an Banana Studio SSH Server, which is an application to host a SSH on the android, and the port 5555 is open, which is usually an Android Debug port.
@@ -44,4 +46,11 @@ x86_64:/ # find / -name root.txt 2>/dev/null
 /data/root.txt
 ```
 
-
+## Reference
+### How to start exploit an Android machine
+- https://www.hacknos.com/investigator-vulnhub-walkthrough/
+### CVE-2019-6447 (ES File Explorer)
+- https://www.exploit-db.com/exploits/50070
+- https://github.com/fs0c131y/ESFileExplorerOpenPortVuln
+### ADB
+- https://developer.android.com/studio/command-line/adb
