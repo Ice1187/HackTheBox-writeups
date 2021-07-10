@@ -1,0 +1,495 @@
+# Nmap 7.80 scan initiated Sat Jul 10 02:04:55 2021 as: nmap -sU --script "snmp* and not snmp-brute" -oN snmp.nmap 10.10.10.241
+Nmap scan report for pit.htb (10.10.10.241)
+Host is up (0.091s latency).
+Scanned at 2021-07-10 02:04:56 CST for 1231s
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+161/udp open  snmp
+| snmp-info: 
+|   enterprise: net-snmp
+|   engineIDFormat: unknown
+|   engineIDData: 4ca7e41263c5985e00000000
+|   snmpEngineBoots: 71
+|_  snmpEngineTime: 13h17m58s
+| snmp-processes: 
+|   1: 
+|     Name: systemd
+|     Path: /usr/lib/systemd/systemd
+|     Params: --switched-root --system --deserialize 18
+|   2: 
+|     Name: kthreadd
+|   3: 
+|     Name: rcu_gp
+|   4: 
+|     Name: rcu_par_gp
+|   6: 
+|     Name: kworker/0:0H-kblockd
+|   9: 
+|     Name: mm_percpu_wq
+|   10: 
+|     Name: ksoftirqd/0
+|   11: 
+|     Name: rcu_sched
+|   12: 
+|     Name: migration/0
+|   13: 
+|     Name: watchdog/0
+|   14: 
+|     Name: cpuhp/0
+|   15: 
+|     Name: cpuhp/1
+|   16: 
+|     Name: watchdog/1
+|   17: 
+|     Name: migration/1
+|   18: 
+|     Name: ksoftirqd/1
+|   20: 
+|     Name: kworker/1:0H-kblockd
+|   23: 
+|     Name: kdevtmpfs
+|   24: 
+|     Name: netns
+|   25: 
+|     Name: kauditd
+|   26: 
+|     Name: khungtaskd
+|   27: 
+|     Name: oom_reaper
+|   28: 
+|     Name: writeback
+|   29: 
+|     Name: kcompactd0
+|   30: 
+|     Name: ksmd
+|   31: 
+|     Name: khugepaged
+|   32: 
+|     Name: crypto
+|   33: 
+|     Name: kintegrityd
+|   34: 
+|     Name: kblockd
+|   35: 
+|     Name: blkcg_punt_bio
+|   36: 
+|     Name: tpm_dev_wq
+|   37: 
+|     Name: md
+|   38: 
+|     Name: edac-poller
+|   39: 
+|     Name: watchdogd
+|   40: 
+|     Name: pm_wq
+|   68: 
+|     Name: kswapd0
+|   161: 
+|     Name: kthrotld
+|   162: 
+|     Name: irq/24-pciehp
+|   163: 
+|     Name: irq/25-pciehp
+|   164: 
+|     Name: irq/26-pciehp
+|   165: 
+|     Name: irq/27-pciehp
+|   166: 
+|     Name: irq/28-pciehp
+|   167: 
+|     Name: irq/29-pciehp
+|   168: 
+|     Name: irq/30-pciehp
+|   169: 
+|     Name: irq/31-pciehp
+|   170: 
+|     Name: irq/32-pciehp
+|   171: 
+|     Name: irq/33-pciehp
+|   172: 
+|     Name: irq/34-pciehp
+|   173: 
+|     Name: irq/35-pciehp
+|   174: 
+|     Name: irq/36-pciehp
+|   175: 
+|     Name: irq/37-pciehp
+|   176: 
+|     Name: irq/38-pciehp
+|   177: 
+|     Name: irq/39-pciehp
+|   178: 
+|     Name: irq/40-pciehp
+|   179: 
+|     Name: irq/41-pciehp
+|   180: 
+|     Name: irq/42-pciehp
+|   181: 
+|     Name: irq/43-pciehp
+|   182: 
+|     Name: irq/44-pciehp
+|   183: 
+|     Name: irq/45-pciehp
+|   184: 
+|     Name: irq/46-pciehp
+|   185: 
+|     Name: irq/47-pciehp
+|   186: 
+|     Name: irq/48-pciehp
+|   187: 
+|     Name: irq/49-pciehp
+|   188: 
+|     Name: irq/50-pciehp
+|   189: 
+|     Name: irq/51-pciehp
+|   190: 
+|     Name: irq/52-pciehp
+|   191: 
+|     Name: irq/53-pciehp
+|   192: 
+|     Name: irq/54-pciehp
+|   193: 
+|     Name: irq/55-pciehp
+|   194: 
+|     Name: acpi_thermal_pm
+|   195: 
+|     Name: kmpath_rdacd
+|   196: 
+|     Name: kaluad
+|   198: 
+|     Name: ipv6_addrconf
+|   199: 
+|     Name: kstrp
+|   524: 
+|     Name: ata_sff
+|   525: 
+|     Name: scsi_eh_0
+|   526: 
+|     Name: scsi_tmf_0
+|   528: 
+|     Name: scsi_eh_1
+|   530: 
+|     Name: scsi_tmf_1
+|   531: 
+|     Name: scsi_eh_2
+|   532: 
+|     Name: scsi_tmf_2
+|   534: 
+|     Name: scsi_eh_3
+|   535: 
+|     Name: scsi_tmf_3
+|   537: 
+|     Name: scsi_eh_4
+|   538: 
+|     Name: scsi_tmf_4
+|   539: 
+|     Name: scsi_eh_5
+|   540: 
+|     Name: scsi_tmf_5
+|   542: 
+|     Name: scsi_eh_6
+|   543: 
+|     Name: scsi_tmf_6
+|   545: 
+|     Name: scsi_eh_7
+|   546: 
+|     Name: scsi_tmf_7
+|   547: 
+|     Name: scsi_eh_8
+|   548: 
+|     Name: scsi_tmf_8
+|   549: 
+|     Name: scsi_eh_9
+|   550: 
+|     Name: scsi_tmf_9
+|   551: 
+|     Name: scsi_eh_10
+|   552: 
+|     Name: scsi_tmf_10
+|   553: 
+|     Name: scsi_eh_11
+|   554: 
+|     Name: scsi_tmf_11
+|   555: 
+|     Name: scsi_eh_12
+|   556: 
+|     Name: scsi_tmf_12
+|   557: 
+|     Name: scsi_eh_13
+|   558: 
+|     Name: scsi_tmf_13
+|   559: 
+|     Name: scsi_eh_14
+|   560: 
+|     Name: scsi_tmf_14
+|   561: 
+|     Name: scsi_eh_15
+|   562: 
+|     Name: scsi_tmf_15
+|   563: 
+|     Name: scsi_eh_16
+|   564: 
+|     Name: scsi_tmf_16
+|   565: 
+|     Name: scsi_eh_17
+|   566: 
+|     Name: scsi_tmf_17
+|   567: 
+|     Name: scsi_eh_18
+|   568: 
+|     Name: scsi_tmf_18
+|   569: 
+|     Name: scsi_eh_19
+|   570: 
+|     Name: scsi_tmf_19
+|   571: 
+|     Name: scsi_eh_20
+|   572: 
+|     Name: scsi_tmf_20
+|   573: 
+|     Name: scsi_eh_21
+|   574: 
+|     Name: scsi_tmf_21
+|   575: 
+|     Name: scsi_eh_22
+|   576: 
+|     Name: scsi_tmf_22
+|   577: 
+|     Name: scsi_eh_23
+|   578: 
+|     Name: scsi_tmf_23
+|   579: 
+|     Name: scsi_eh_24
+|   580: 
+|     Name: scsi_tmf_24
+|   581: 
+|     Name: scsi_eh_25
+|   582: 
+|     Name: scsi_tmf_25
+|   583: 
+|     Name: scsi_eh_26
+|   584: 
+|     Name: scsi_tmf_26
+|   585: 
+|     Name: scsi_eh_27
+|   586: 
+|     Name: scsi_tmf_27
+|   587: 
+|     Name: scsi_eh_28
+|   588: 
+|     Name: scsi_tmf_28
+|   589: 
+|     Name: scsi_eh_29
+|   590: 
+|     Name: scsi_tmf_29
+|   591: 
+|     Name: scsi_eh_30
+|   592: 
+|     Name: scsi_tmf_30
+|   593: 
+|     Name: scsi_eh_31
+|   594: 
+|     Name: scsi_tmf_31
+|   596: 
+|     Name: irq/16-vmwgfx
+|   598: 
+|     Name: ttm_swap
+|   630: 
+|     Name: kworker/1:1H-kblockd
+|   642: 
+|     Name: mpt_poll_0
+|   644: 
+|     Name: mpt/0
+|   654: 
+|     Name: scsi_eh_32
+|   655: 
+|     Name: scsi_tmf_32
+|   689: 
+|     Name: kdmflush
+|   699: 
+|     Name: kdmflush
+|   707: 
+|     Name: kworker/0:1H-kblockd
+|   724: 
+|     Name: xfsalloc
+|   725: 
+|     Name: xfs_mru_cache
+|   727: 
+|     Name: xfs-buf/dm-0
+|   729: 
+|     Name: xfs-conv/dm-0
+|   730: 
+|     Name: xfs-cil/dm-0
+|   732: 
+|     Name: xfs-reclaim/dm-
+|   733: 
+|     Name: xfs-eofblocks/d
+|   734: 
+|     Name: xfs-log/dm-0
+|   736: 
+|     Name: xfsaild/dm-0
+|   832: 
+|     Name: systemd-journal
+|     Path: /usr/lib/systemd/systemd-journald
+|   867: 
+|     Name: systemd-udevd
+|     Path: /usr/lib/systemd/systemd-udevd
+|   937: 
+|     Name: kdmflush
+|   942: 
+|     Name: xfs-buf/dm-2
+|   943: 
+|     Name: xfs-conv/dm-2
+|   944: 
+|     Name: xfs-cil/dm-2
+|   947: 
+|     Name: xfs-reclaim/dm-
+|   948: 
+|     Name: xfs-eofblocks/d
+|   949: 
+|     Name: xfs-log/dm-2
+|   950: 
+|     Name: xfsaild/dm-2
+|   956: 
+|     Name: jbd2/sda1-8
+|   957: 
+|     Name: ext4-rsv-conver
+|   982: 
+|     Name: auditd
+|     Path: /sbin/auditd
+|   984: 
+|     Name: sedispatch
+|     Path: /usr/sbin/sedispatch
+|   1016: 
+|     Name: polkitd
+|     Path: /usr/lib/polkit-1/polkitd
+|     Params: --no-debug
+|   1019: 
+|     Name: irqbalance
+|     Path: /usr/sbin/irqbalance
+|     Params: --foreground
+|   1021: 
+|     Name: sssd
+|     Path: /usr/sbin/sssd
+|     Params: -i --logger=files
+|   1022: 
+|     Name: dbus-daemon
+|     Path: /usr/bin/dbus-daemon
+|     Params: --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+|   1023: 
+|     Name: VGAuthService
+|     Path: /usr/bin/VGAuthService
+|     Params: -s
+|   1024: 
+|     Name: vmtoolsd
+|     Path: /usr/bin/vmtoolsd
+|   1029: 
+|     Name: chronyd
+|     Path: /usr/sbin/chronyd
+|   1036: 
+|     Name: rngd
+|     Path: /sbin/rngd
+|     Params: -f --fill-watermark=0
+|   1058: 
+|     Name: sssd_be
+|     Path: /usr/libexec/sssd/sssd_be
+|     Params: --domain implicit_files --uid 0 --gid 0 --logger=files
+|   1066: 
+|     Name: firewalld
+|     Path: /usr/libexec/platform-python
+|     Params: -s /usr/sbin/firewalld --nofork --nopid
+|   1072: 
+|     Name: sssd_nss
+|     Path: /usr/libexec/sssd/sssd_nss
+|     Params: --uid 0 --gid 0 --logger=files
+|   1096: 
+|     Name: systemd-logind
+|     Path: /usr/lib/systemd/systemd-logind
+|   1108: 
+|     Name: NetworkManager
+|     Path: /usr/sbin/NetworkManager
+|     Params: --no-daemon
+|   1114: 
+|     Name: tuned
+|     Path: /usr/libexec/platform-python
+|     Params: -Es /usr/sbin/tuned -l -P
+|   1115: 
+|     Name: sshd
+|     Path: /usr/sbin/sshd
+|     Params: -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128
+|   1151: 
+|     Name: crond
+|     Path: /usr/sbin/crond
+|     Params: -n
+|   1157: 
+|     Name: agetty
+|     Path: /sbin/agetty
+|     Params: -o -p -- \u --noclear tty1 linux
+|   1203: 
+|     Name: mysqld
+|     Path: /usr/libexec/mysqld
+|     Params: --basedir=/usr
+|   1223: 
+|     Name: nginx
+|     Path: nginx: master process /usr/sbin/nginx
+|   1224: 
+|     Name: nginx
+|     Path: nginx: worker process
+|   1225: 
+|     Name: nginx
+|     Path: nginx: worker process
+|   1496: 
+|     Name: snmpd
+|     Path: /usr/sbin/snmpd
+|     Params: -LS0-6d -f
+|   1498: 
+|     Name: rsyslogd
+|     Path: /usr/sbin/rsyslogd
+|     Params: -n
+|   10477: 
+|     Name: kworker/u4:1-xfs-cil/dm-0
+|   10881: 
+|     Name: kworker/0:6-memcg_kmem_cache
+|   10966: 
+|     Name: kworker/0:2-events
+|   11094: 
+|     Name: kworker/u4:2-xfs-cil/dm-0
+|   11098: 
+|     Name: kworker/1:4-mm_percpu_wq
+|   11139: 
+|     Name: kworker/1:5-events_power_efficient
+|   11183: 
+|     Name: kworker/0:1-events
+|   11193: 
+|     Name: kworker/1:0-events
+|   11225: 
+|     Name: kworker/u4:0-events_unbound
+|   11246: 
+|     Name: kworker/0:0-events
+|   11263: 
+|     Name: php-fpm
+|     Path: php-fpm: master process (/etc/php-fpm.conf)
+|   11264: 
+|     Name: php-fpm
+|     Path: php-fpm: pool www
+|   11265: 
+|     Name: php-fpm
+|     Path: php-fpm: pool www
+|   11266: 
+|     Name: php-fpm
+|     Path: php-fpm: pool www
+|   11267: 
+|     Name: php-fpm
+|     Path: php-fpm: pool www
+|   11268: 
+|     Name: php-fpm
+|     Path: php-fpm: pool www
+|   11273: 
+|     Name: kworker/0:3-cgroup_destroy
+|   11278: 
+|_    Name: kworker/0:4-events
+| snmp-sysdescr: Linux pit.htb 4.18.0-240.22.1.el8_3.x86_64 #1 SMP Thu Apr 8 19:01:30 UTC 2021 x86_64
+|_  System uptime: 13h17m57.91s (4787791 timeticks)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul 10 02:25:27 2021 -- 1 IP address (1 host up) scanned in 1231.56 seconds

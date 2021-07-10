@@ -1,0 +1,8 @@
+systemd-tmpfiles-clean.timer
+
+[i] https://book.hacktricks.xyz/linux-unix/privilege-escalation#d-bus
+Possible weak user policy found on /etc/dbus-1/system.d/org.fedoraproject.Setroubleshootd.conf (        <policy user="setroubleshoot">)
+Possible weak user policy found on /etc/dbus-1/system.d/org.fedoraproject.SetroubleshootPrivileged.conf (  <policy user="setroubleshoot">)
+Possible weak user policy found on /etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf (  <policy user="polkitd">
+  <policy user="polkitd">)
+

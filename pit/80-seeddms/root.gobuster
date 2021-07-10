@@ -1,0 +1,648 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://dms-pit.htb/seeddms51x/seeddms/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/SecLists/Discovery/Web-Content/raft-small-words.txt
+[+] Negative Status codes:   404
+[+] Cookies:                 mydms_session=c9de8c35df602a846bbc46549e6bb150
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/07/10 07:14:22 Starting gobuster in directory enumeration mode
+===============================================================
+/LICENSE              (Status: 200) [Size: 18321]
+/CHANGELOG            (Status: 200) [Size: 101652]
+/config.old           (Status: 403) [Size: 169]   
+/config.1             (Status: 403) [Size: 169]   
+/.config.swp          (Status: 403) [Size: 169]   
+/config               (Status: 403) [Size: 169]   
+/config~              (Status: 403) [Size: 169]   
+/config.bak           (Status: 403) [Size: 169]   
+/config.bak2          (Status: 403) [Size: 169]   
+/inc                  (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/inc/]
+/styles               (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/styles/]
+/.xml                 (Status: 403) [Size: 169]                                                    
+/languages            (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/languages/]
+/out                  (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/out/]      
+/doc                  (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/doc/]      
+/.                    (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/./]        
+/typo3conf.1          (Status: 403) [Size: 169]                                                       
+/.typo3conf.swp       (Status: 403) [Size: 169]                                                       
+/typo3conf            (Status: 403) [Size: 169]                                                       
+/typo3conf~           (Status: 403) [Size: 169]                                                       
+/typo3conf.bak        (Status: 403) [Size: 169]                                                       
+/typo3conf.bak2       (Status: 403) [Size: 169]                                                       
+/typo3conf.old        (Status: 403) [Size: 169]                                                       
+/.config~             (Status: 403) [Size: 169]                                                       
+/.config.bak          (Status: 403) [Size: 169]                                                       
+/.config.bak2         (Status: 403) [Size: 169]                                                       
+/.config.old          (Status: 403) [Size: 169]                                                       
+/.config.1            (Status: 403) [Size: 169]                                                       
+/..config.swp         (Status: 403) [Size: 169]                                                       
+/.config              (Status: 403) [Size: 169]                                                       
+/conf.1               (Status: 403) [Size: 169]                                                       
+/.conf.swp            (Status: 403) [Size: 169]                                                       
+/conf                 (Status: 403) [Size: 169]                                                       
+/conf~                (Status: 403) [Size: 169]                                                       
+/conf.bak             (Status: 403) [Size: 169]                                                       
+/conf.bak2            (Status: 403) [Size: 169]                                                       
+/conf.old             (Status: 403) [Size: 169]                                                       
+/.log                 (Status: 403) [Size: 169]                                                       
+/.htaccess            (Status: 200) [Size: 964]                                                       
+/.Config.swp          (Status: 403) [Size: 169]                                                       
+/Config               (Status: 403) [Size: 169]                                                       
+/Config~              (Status: 403) [Size: 169]                                                       
+/Config.bak           (Status: 403) [Size: 169]                                                       
+/Config.bak2          (Status: 403) [Size: 169]                                                       
+/Config.old           (Status: 403) [Size: 169]                                                       
+/Config.1             (Status: 403) [Size: 169]                                                       
+/utils                (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/utils/]    
+/confirm              (Status: 403) [Size: 169]                                                       
+/confirm~             (Status: 403) [Size: 169]                                                       
+/confirm.bak          (Status: 403) [Size: 169]                                                       
+/confirm.bak2         (Status: 403) [Size: 169]                                                       
+/confirm.old          (Status: 403) [Size: 169]                                                       
+/confirm.1            (Status: 403) [Size: 169]                                                       
+/.confirm.swp         (Status: 403) [Size: 169]                                                       
+/pear                 (Status: 403) [Size: 169]                                                       
+/pear~                (Status: 403) [Size: 169]                                                       
+/pear.bak             (Status: 403) [Size: 169]                                                       
+/pear.bak2            (Status: 403) [Size: 169]                                                       
+/pear.old             (Status: 403) [Size: 169]                                                       
+/pear.1               (Status: 403) [Size: 169]                                                       
+/views                (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/views/]    
+/.pear.swp            (Status: 403) [Size: 169]                                                       
+/wp-config            (Status: 403) [Size: 169]                                                       
+/wp-config~           (Status: 403) [Size: 169]                                                       
+/wp-config.bak        (Status: 403) [Size: 169]                                                       
+/wp-config.bak2       (Status: 403) [Size: 169]                                                       
+/wp-config.old        (Status: 403) [Size: 169]                                                       
+/wp-config.1          (Status: 403) [Size: 169]                                                       
+/.wp-config.swp       (Status: 403) [Size: 169]                                                       
+/controllers          (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/controllers/]
+/SiteConfig.bak2      (Status: 403) [Size: 169]                                                         
+/SiteConfig.old       (Status: 403) [Size: 169]                                                         
+/SiteConfig.1         (Status: 403) [Size: 169]                                                         
+/.SiteConfig.swp      (Status: 403) [Size: 169]                                                         
+/SiteConfig           (Status: 403) [Size: 169]                                                         
+/SiteConfig~          (Status: 403) [Size: 169]                                                         
+/SiteConfig.bak       (Status: 403) [Size: 169]                                                         
+/confirmation.1       (Status: 403) [Size: 169]                                                         
+/.confirmation.swp    (Status: 403) [Size: 169]                                                         
+/confirmation         (Status: 403) [Size: 169]                                                         
+/confirmation~        (Status: 403) [Size: 169]                                                         
+/confirmation.bak     (Status: 403) [Size: 169]                                                         
+/confirmation.bak2    (Status: 403) [Size: 169]                                                         
+/confirmation.old     (Status: 403) [Size: 169]                                                         
+/configs.bak2         (Status: 403) [Size: 169]                                                         
+/configs.old          (Status: 403) [Size: 169]                                                         
+/configs.1            (Status: 403) [Size: 169]                                                         
+/.configs.swp         (Status: 403) [Size: 169]                                                         
+/configs              (Status: 403) [Size: 169]                                                         
+/configs~             (Status: 403) [Size: 169]                                                         
+/configs.bak          (Status: 403) [Size: 169]                                                         
+/configuration        (Status: 403) [Size: 169]                                                         
+/configuration~       (Status: 403) [Size: 169]                                                         
+/configuration.bak    (Status: 403) [Size: 169]                                                         
+/configuration.bak2   (Status: 403) [Size: 169]                                                         
+/configuration.old    (Status: 403) [Size: 169]                                                         
+/configuration.1      (Status: 403) [Size: 169]                                                         
+/.configuration.swp   (Status: 403) [Size: 169]                                                         
+/._config.swp         (Status: 403) [Size: 169]                                                         
+/_config              (Status: 403) [Size: 169]                                                         
+/_config~             (Status: 403) [Size: 169]                                                         
+/_config.bak          (Status: 403) [Size: 169]                                                         
+/_config.bak2         (Status: 403) [Size: 169]                                                         
+/_config.old          (Status: 403) [Size: 169]                                                         
+/_config.1            (Status: 403) [Size: 169]                                                         
+/conference.1         (Status: 403) [Size: 169]                                                         
+/.conference.swp      (Status: 403) [Size: 169]                                                         
+/conference           (Status: 403) [Size: 169]                                                         
+/conference~          (Status: 403) [Size: 169]                                                         
+/conference.bak       (Status: 403) [Size: 169]                                                         
+/conference.bak2      (Status: 403) [Size: 169]                                                         
+/conference.old       (Status: 403) [Size: 169]                                                         
+/confirmed.bak        (Status: 403) [Size: 169]                                                         
+/confirmed.bak2       (Status: 403) [Size: 169]                                                         
+/confirmed.old        (Status: 403) [Size: 169]                                                         
+/confirmed.1          (Status: 403) [Size: 169]                                                         
+/.confirmed.swp       (Status: 403) [Size: 169]                                                         
+/confirmed            (Status: 403) [Size: 169]                                                         
+/confirmed~           (Status: 403) [Size: 169]                                                         
+/pconf.1              (Status: 403) [Size: 169]                                                         
+/.pconf.swp           (Status: 403) [Size: 169]                                                         
+/pconf                (Status: 403) [Size: 169]                                                         
+/pconf~               (Status: 403) [Size: 169]                                                         
+/pconf.bak            (Status: 403) [Size: 169]                                                         
+/pconf.bak2           (Status: 403) [Size: 169]                                                         
+/pconf.old            (Status: 403) [Size: 169]                                                         
+/.glance_config.swp   (Status: 403) [Size: 169]                                                         
+/glance_config        (Status: 403) [Size: 169]                                                         
+/glance_config~       (Status: 403) [Size: 169]                                                         
+/glance_config.bak    (Status: 403) [Size: 169]                                                         
+/glance_config.bak2   (Status: 403) [Size: 169]                                                         
+/glance_config.old    (Status: 403) [Size: 169]                                                         
+/glance_config.1      (Status: 403) [Size: 169]                                                         
+/conferences          (Status: 403) [Size: 169]                                                         
+/conferences~         (Status: 403) [Size: 169]                                                         
+/conferences.bak      (Status: 403) [Size: 169]                                                         
+/conferences.bak2     (Status: 403) [Size: 169]                                                         
+/conferences.old      (Status: 403) [Size: 169]                                                         
+/conferences.1        (Status: 403) [Size: 169]                                                         
+/.conferences.swp     (Status: 403) [Size: 169]                                                         
+/prodconf.bak2        (Status: 403) [Size: 169]                                                         
+/prodconf.old         (Status: 403) [Size: 169]                                                         
+/prodconf.1           (Status: 403) [Size: 169]                                                         
+/.prodconf.swp        (Status: 403) [Size: 169]                                                         
+/prodconf             (Status: 403) [Size: 169]                                                         
+/prodconf~            (Status: 403) [Size: 169]                                                         
+/prodconf.bak         (Status: 403) [Size: 169]                                                         
+/.Config.1            (Status: 403) [Size: 169]                                                         
+/..Config.swp         (Status: 403) [Size: 169]                                                         
+/.Config              (Status: 403) [Size: 169]                                                         
+/.Config~             (Status: 403) [Size: 169]                                                         
+/.Config.bak          (Status: 403) [Size: 169]                                                         
+/.Config.bak2         (Status: 403) [Size: 169]                                                         
+/.Config.old          (Status: 403) [Size: 169]                                                         
+/configure.old        (Status: 403) [Size: 169]                                                         
+/configure.1          (Status: 403) [Size: 169]                                                         
+/.configure.swp       (Status: 403) [Size: 169]                                                         
+/configure            (Status: 403) [Size: 169]                                                         
+/configure~           (Status: 403) [Size: 169]                                                         
+/configure.bak        (Status: 403) [Size: 169]                                                         
+/configure.bak2       (Status: 403) [Size: 169]                                                         
+/op                   (Status: 301) [Size: 185] [--> http://dms-pit.htb/seeddms51x/seeddms/op/]         
+/.LOG                 (Status: 403) [Size: 169]                                                         
+/PEAR~                (Status: 403) [Size: 169]                                                         
+/PEAR.bak             (Status: 403) [Size: 169]                                                         
+/PEAR.bak2            (Status: 403) [Size: 169]                                                         
+/PEAR.old             (Status: 403) [Size: 169]                                                         
+/PEAR.1               (Status: 403) [Size: 169]                                                         
+/.PEAR.swp            (Status: 403) [Size: 169]                                                         
+/PEAR                 (Status: 403) [Size: 169]                                                         
+/install-xpconf       (Status: 403) [Size: 169]                                                         
+/install-xpconf~      (Status: 403) [Size: 169]                                                         
+/install-xpconf.bak   (Status: 403) [Size: 169]                                                         
+/install-xpconf.bak2  (Status: 403) [Size: 169]                                                         
+/install-xpconf.old   (Status: 403) [Size: 169]                                                         
+/install-xpconf.1     (Status: 403) [Size: 169]                                                         
+/.install-xpconf.swp  (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE.bak  (Status: 403) [Size: 169]                                                         
+/.X-PCONF.1           (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE.bak2 (Status: 403) [Size: 169]                                                         
+/..X-PCONF.swp        (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE.old  (Status: 403) [Size: 169]                                                         
+/.X-PCONF             (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE.1    (Status: 403) [Size: 169]                                                         
+/.X-PCONF~            (Status: 403) [Size: 169]                                                         
+/.X-PCONF.bak         (Status: 403) [Size: 169]                                                         
+/..X-PCONF_var_DE.swp (Status: 403) [Size: 169]                                                         
+/.X-PCONF.bak2        (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE      (Status: 403) [Size: 169]                                                         
+/.X-PCONF.old         (Status: 403) [Size: 169]                                                         
+/.X-PCONF_var_DE~     (Status: 403) [Size: 169]                                                         
+/App_Config           (Status: 403) [Size: 169]                                                         
+/App_Config~          (Status: 403) [Size: 169]                                                         
+/Configuration~       (Status: 403) [Size: 169]                                                         
+/App_Config.bak       (Status: 403) [Size: 169]                                                         
+/Configuration.bak    (Status: 403) [Size: 169]                                                         
+/App_Config.bak2      (Status: 403) [Size: 169]                                                         
+/Configuration.bak2   (Status: 403) [Size: 169]                                                         
+/App_Config.old       (Status: 403) [Size: 169]                                                         
+/App_Config.1         (Status: 403) [Size: 169]                                                         
+/Configuration.old    (Status: 403) [Size: 169]                                                         
+/Configuration.1      (Status: 403) [Size: 169]                                                         
+/.App_Config.swp      (Status: 403) [Size: 169]                                                         
+/.Configuration.swp   (Status: 403) [Size: 169]                                                         
+/Configuration        (Status: 403) [Size: 169]                                                         
+/.conf                (Status: 403) [Size: 169]                                                         
+/.conf~               (Status: 403) [Size: 169]                                                         
+/.conf.bak            (Status: 403) [Size: 169]                                                         
+/.conf.bak2           (Status: 403) [Size: 169]                                                         
+/.conf.old            (Status: 403) [Size: 169]                                                         
+/.conf.1              (Status: 403) [Size: 169]                                                         
+/..conf.swp           (Status: 403) [Size: 169]                                                         
+/.Confirmation.swp    (Status: 403) [Size: 169]                                                         
+/Confirmation         (Status: 403) [Size: 169]                                                         
+/Confirmation~        (Status: 403) [Size: 169]                                                         
+/Confirmation.bak     (Status: 403) [Size: 169]                                                         
+/Confirmation.bak2    (Status: 403) [Size: 169]                                                         
+/Confirmation.old     (Status: 403) [Size: 169]                                                         
+/Confirmation.1       (Status: 403) [Size: 169]                                                         
+/config-old.1         (Status: 403) [Size: 169]                                                         
+/.config-old.swp      (Status: 403) [Size: 169]                                                         
+/config-old           (Status: 403) [Size: 169]                                                         
+/config-old~          (Status: 403) [Size: 169]                                                         
+/config-old.bak       (Status: 403) [Size: 169]                                                         
+/config-old.bak2      (Status: 403) [Size: 169]                                                         
+/config-old.old       (Status: 403) [Size: 169]                                                         
+/Confirm              (Status: 403) [Size: 169]                                                         
+/Confirm~             (Status: 403) [Size: 169]                                                         
+/Confirm.bak          (Status: 403) [Size: 169]                                                         
+/Confirm.bak2         (Status: 403) [Size: 169]                                                         
+/Confirm.old          (Status: 403) [Size: 169]                                                         
+/Confirm.1            (Status: 403) [Size: 169]                                                         
+/.Confirm.swp         (Status: 403) [Size: 169]                                                         
+/configurator.1       (Status: 403) [Size: 169]                                                         
+/.configurator.swp    (Status: 403) [Size: 169]                                                         
+/configurator         (Status: 403) [Size: 169]                                                         
+/configurator~        (Status: 403) [Size: 169]                                                         
+/configurator.bak     (Status: 403) [Size: 169]                                                         
+/configurator.bak2    (Status: 403) [Size: 169]                                                         
+/configurator.old     (Status: 403) [Size: 169]                                                         
+/disappear.bak2       (Status: 403) [Size: 169]                                                         
+/disappear.old        (Status: 403) [Size: 169]                                                         
+/disappear.1          (Status: 403) [Size: 169]                                                         
+/.disappear.swp       (Status: 403) [Size: 169]                                                         
+/disappear            (Status: 403) [Size: 169]                                                         
+/disappear~           (Status: 403) [Size: 169]                                                         
+/disappear.bak        (Status: 403) [Size: 169]                                                         
+/checkoutconfrim.1    (Status: 403) [Size: 169]                                                         
+/.checkoutconfrim.swp (Status: 403) [Size: 169]                                                         
+/checkoutconfrim      (Status: 403) [Size: 169]                                                         
+/checkoutconfrim~     (Status: 403) [Size: 169]                                                         
+/checkoutconfrim.bak  (Status: 403) [Size: 169]                                                         
+/checkoutconfrim.bak2 (Status: 403) [Size: 169]                                                         
+/checkoutconfrim.old  (Status: 403) [Size: 169]                                                         
+/confirm_email.bak    (Status: 403) [Size: 169]                                                         
+/confirm_email.bak2   (Status: 403) [Size: 169]                                                         
+/confirm_email.old    (Status: 403) [Size: 169]                                                         
+/confirm_email.1      (Status: 403) [Size: 169]                                                         
+/.confirm_email.swp   (Status: 403) [Size: 169]                                                         
+/confirm_email        (Status: 403) [Size: 169]                                                         
+/confirm_email~       (Status: 403) [Size: 169]                                                         
+/..config.php.swp     (Status: 403) [Size: 169]                                                         
+/.config.php~         (Status: 403) [Size: 169]                                                         
+/.config.php.bak      (Status: 403) [Size: 169]                                                         
+/.config.php.bak2     (Status: 403) [Size: 169]                                                         
+/.config.php.old      (Status: 403) [Size: 169]                                                         
+/.config.php.1        (Status: 403) [Size: 169]                                                         
+/CartConfig           (Status: 403) [Size: 169]                                                         
+/CartConfig~          (Status: 403) [Size: 169]                                                         
+/CartConfig.bak       (Status: 403) [Size: 169]                                                         
+/Conf.bak2            (Status: 403) [Size: 169]                                                         
+/CartConfig.bak2      (Status: 403) [Size: 169]                                                         
+/CartConfig.old       (Status: 403) [Size: 169]                                                         
+/Conf.old             (Status: 403) [Size: 169]                                                         
+/CartConfig.1         (Status: 403) [Size: 169]                                                         
+/Conf.1               (Status: 403) [Size: 169]                                                         
+/.CartConfig.swp      (Status: 403) [Size: 169]                                                         
+/.Conf.swp            (Status: 403) [Size: 169]                                                         
+/Conf                 (Status: 403) [Size: 169]                                                         
+/Conf~                (Status: 403) [Size: 169]                                                         
+/Conf.bak             (Status: 403) [Size: 169]                                                         
+/classeetconfort      (Status: 403) [Size: 169]                                                         
+/classeetconfort~     (Status: 403) [Size: 169]                                                         
+/classeetconfort.bak  (Status: 403) [Size: 169]                                                         
+/classeetconfort.bak2 (Status: 403) [Size: 169]                                                         
+/classeetconfort.old  (Status: 403) [Size: 169]                                                         
+/classeetconfort.1    (Status: 403) [Size: 169]                                                         
+/.classeetconfort.swp (Status: 403) [Size: 169]                                                         
+/webconfig            (Status: 403) [Size: 169]                                                         
+/webconfig~           (Status: 403) [Size: 169]                                                         
+/webconfig.bak        (Status: 403) [Size: 169]                                                         
+/webconfig.bak2       (Status: 403) [Size: 169]                                                         
+/webconfig.old        (Status: 403) [Size: 169]                                                         
+/webconfig.1          (Status: 403) [Size: 169]                                                         
+/.webconfig.swp       (Status: 403) [Size: 169]                                                         
+/CommConfig~          (Status: 403) [Size: 169]                                                         
+/CommConfig.bak       (Status: 403) [Size: 169]                                                         
+/Conference.old       (Status: 403) [Size: 169]                                                         
+/CommConfig.bak2      (Status: 403) [Size: 169]                                                         
+/Conference.1         (Status: 403) [Size: 169]                                                         
+/CommConfig.old       (Status: 403) [Size: 169]                                                         
+/.Conference.swp      (Status: 403) [Size: 169]                                                         
+/CommConfig.1         (Status: 403) [Size: 169]                                                         
+/Conference           (Status: 403) [Size: 169]                                                         
+/.CommConfig.swp      (Status: 403) [Size: 169]                                                         
+/Conference~          (Status: 403) [Size: 169]                                                         
+/CommConfig           (Status: 403) [Size: 169]                                                         
+/Conference.bak       (Status: 403) [Size: 169]                                                         
+/Conference.bak2      (Status: 403) [Size: 169]                                                         
+/confidential.old     (Status: 403) [Size: 169]                                                         
+/confidential.1       (Status: 403) [Size: 169]                                                         
+/.confidential.swp    (Status: 403) [Size: 169]                                                         
+/confidential         (Status: 403) [Size: 169]                                                         
+/confidential~        (Status: 403) [Size: 169]                                                         
+/confidential.bak     (Status: 403) [Size: 169]                                                         
+/confidential.bak2    (Status: 403) [Size: 169]                                                         
+/conf_global.1        (Status: 403) [Size: 169]                                                         
+/.conf_global.swp     (Status: 403) [Size: 169]                                                         
+/conf_global          (Status: 403) [Size: 169]                                                         
+/conf_global~         (Status: 403) [Size: 169]                                                         
+/conf_global.bak      (Status: 403) [Size: 169]                                                         
+/conf_global.bak2     (Status: 403) [Size: 169]                                                         
+/conf_global.old      (Status: 403) [Size: 169]                                                         
+/Configs              (Status: 403) [Size: 169]                                                         
+/Configs~             (Status: 403) [Size: 169]                                                         
+/Configs.bak          (Status: 403) [Size: 169]                                                         
+/Configs.bak2         (Status: 403) [Size: 169]                                                         
+/Configs.old          (Status: 403) [Size: 169]                                                         
+/Configs.1            (Status: 403) [Size: 169]                                                         
+/.Configs.swp         (Status: 403) [Size: 169]                                                         
+/_conf.old            (Status: 403) [Size: 169]                                                         
+/_conf.1              (Status: 403) [Size: 169]                                                         
+/._conf.swp           (Status: 403) [Size: 169]                                                         
+/_conf                (Status: 403) [Size: 169]                                                         
+/_conf~               (Status: 403) [Size: 169]                                                         
+/_conf.bak            (Status: 403) [Size: 169]                                                         
+/_conf.bak2           (Status: 403) [Size: 169]                                                         
+/orderconfirm         (Status: 403) [Size: 169]                                                         
+/orderconfirm~        (Status: 403) [Size: 169]                                                         
+/orderconfirm.bak     (Status: 403) [Size: 169]                                                         
+/orderconfirm.bak2    (Status: 403) [Size: 169]                                                         
+/orderconfirm.old     (Status: 403) [Size: 169]                                                         
+/orderconfirm.1       (Status: 403) [Size: 169]                                                         
+/.orderconfirm.swp    (Status: 403) [Size: 169]                                                         
+/_config-rating~      (Status: 403) [Size: 169]                                                         
+/_config-rating.bak   (Status: 403) [Size: 169]                                                         
+/_config-rating.bak2  (Status: 403) [Size: 169]                                                         
+/_config-rating.old   (Status: 403) [Size: 169]                                                         
+/_config-rating.1     (Status: 403) [Size: 169]                                                         
+/._config-rating.swp  (Status: 403) [Size: 169]                                                         
+/_config-rating       (Status: 403) [Size: 169]                                                         
+/pconfirm.old         (Status: 403) [Size: 169]                                                         
+/pconfirm.1           (Status: 403) [Size: 169]                                                         
+/.pconfirm.swp        (Status: 403) [Size: 169]                                                         
+/pconfirm             (Status: 403) [Size: 169]                                                         
+/pconfirm~            (Status: 403) [Size: 169]                                                         
+/pconfirm.bak         (Status: 403) [Size: 169]                                                         
+/pconfirm.bak2        (Status: 403) [Size: 169]                                                         
+/sbconf.old           (Status: 403) [Size: 169]                                                         
+/sbconf.1             (Status: 403) [Size: 169]                                                         
+/.sbconf.swp          (Status: 403) [Size: 169]                                                         
+/sbconf               (Status: 403) [Size: 169]                                                         
+/sbconf~              (Status: 403) [Size: 169]                                                         
+/sbconf.bak           (Status: 403) [Size: 169]                                                         
+/sbconf.bak2          (Status: 403) [Size: 169]                                                         
+/ConfirmOrder.old     (Status: 403) [Size: 169]                                                         
+/ConfirmOrder.1       (Status: 403) [Size: 169]                                                         
+/.ConfirmOrder.swp    (Status: 403) [Size: 169]                                                         
+/ConfirmOrder         (Status: 403) [Size: 169]                                                         
+/ConfirmOrder~        (Status: 403) [Size: 169]                                                         
+/ConfirmOrder.bak     (Status: 403) [Size: 169]                                                         
+/ConfirmOrder.bak2    (Status: 403) [Size: 169]                                                         
+/admin_config.old     (Status: 403) [Size: 169]                                                         
+/admin_config.1       (Status: 403) [Size: 169]                                                         
+/.admin_config.swp    (Status: 403) [Size: 169]                                                         
+/admin_config         (Status: 403) [Size: 169]                                                         
+/admin_config~        (Status: 403) [Size: 169]                                                         
+/admin_config.bak     (Status: 403) [Size: 169]                                                         
+/admin_config.bak2    (Status: 403) [Size: 169]                                                         
+/confidence.bak       (Status: 403) [Size: 169]                                                         
+/config2              (Status: 403) [Size: 169]                                                         
+/config2~             (Status: 403) [Size: 169]                                                         
+/confidence.bak2      (Status: 403) [Size: 169]                                                         
+/confirmorder         (Status: 403) [Size: 169]                                                         
+/config2.bak          (Status: 403) [Size: 169]                                                         
+/confidence.old       (Status: 403) [Size: 169]                                                         
+/confirmorder~        (Status: 403) [Size: 169]                                                         
+/config2.bak2         (Status: 403) [Size: 169]                                                         
+/confidence.1         (Status: 403) [Size: 169]                                                         
+/config2.old          (Status: 403) [Size: 169]                                                         
+/confirmorder.bak     (Status: 403) [Size: 169]                                                         
+/.confidence.swp      (Status: 403) [Size: 169]                                                         
+/config2.1            (Status: 403) [Size: 169]                                                         
+/confirmorder.bak2    (Status: 403) [Size: 169]                                                         
+/confidence           (Status: 403) [Size: 169]                                                         
+/.config2.swp         (Status: 403) [Size: 169]                                                         
+/confirmorder.old     (Status: 403) [Size: 169]                                                         
+/confidence~          (Status: 403) [Size: 169]                                                         
+/confirmorder.1       (Status: 403) [Size: 169]                                                         
+/.confirmorder.swp    (Status: 403) [Size: 169]                                                         
+/TODO                 (Status: 200) [Size: 2844]                                                        
+/_configs~            (Status: 403) [Size: 169]                                                         
+/_configs.bak         (Status: 403) [Size: 169]                                                         
+/_configs.bak2        (Status: 403) [Size: 169]                                                         
+/_configs.old         (Status: 403) [Size: 169]                                                         
+/_configs.1           (Status: 403) [Size: 169]                                                         
+/._configs.swp        (Status: 403) [Size: 169]                                                         
+/_configs             (Status: 403) [Size: 169]                                                         
+/.conferma.swp        (Status: 403) [Size: 169]                                                         
+/config1              (Status: 403) [Size: 169]                                                         
+/confirmacion.bak2    (Status: 403) [Size: 169]                                                         
+/conferma             (Status: 403) [Size: 169]                                                         
+/config1~             (Status: 403) [Size: 169]                                                         
+/confirmacion.old     (Status: 403) [Size: 169]                                                         
+/conferma~            (Status: 403) [Size: 169]                                                         
+/config1.bak          (Status: 403) [Size: 169]                                                         
+/confirmacion.1       (Status: 403) [Size: 169]                                                         
+/conferma.bak         (Status: 403) [Size: 169]                                                         
+/config1.bak2         (Status: 403) [Size: 169]                                                         
+/conferma.bak2        (Status: 403) [Size: 169]                                                         
+/.confirmacion.swp    (Status: 403) [Size: 169]                                                         
+/config1.old          (Status: 403) [Size: 169]                                                         
+/conferma.old         (Status: 403) [Size: 169]                                                         
+/confirmacion         (Status: 403) [Size: 169]                                                         
+/config1.1            (Status: 403) [Size: 169]                                                         
+/conferma.1           (Status: 403) [Size: 169]                                                         
+/confirmacion~        (Status: 403) [Size: 169]                                                         
+/.config1.swp         (Status: 403) [Size: 169]                                                         
+/confirmacion.bak     (Status: 403) [Size: 169]                                                         
+/db_config            (Status: 403) [Size: 169]                                                         
+/db_config~           (Status: 403) [Size: 169]                                                         
+/db_config.bak        (Status: 403) [Size: 169]                                                         
+/db_config.bak2       (Status: 403) [Size: 169]                                                         
+/db_config.old        (Status: 403) [Size: 169]                                                         
+/db_config.1          (Status: 403) [Size: 169]                                                         
+/.db_config.swp       (Status: 403) [Size: 169]                                                         
+/Conferences.old      (Status: 403) [Size: 169]                                                         
+/Conferences.1        (Status: 403) [Size: 169]                                                         
+/.Conferences.swp     (Status: 403) [Size: 169]                                                         
+/Conferences          (Status: 403) [Size: 169]                                                         
+/Conferences~         (Status: 403) [Size: 169]                                                         
+/Conferences.bak      (Status: 403) [Size: 169]                                                         
+/Conferences.bak2     (Status: 403) [Size: 169]                                                         
+/confirmemail         (Status: 403) [Size: 169]                                                         
+/confirmemail~        (Status: 403) [Size: 169]                                                         
+/confirmemail.bak     (Status: 403) [Size: 169]                                                         
+/confirmemail.bak2    (Status: 403) [Size: 169]                                                         
+/confirmemail.old     (Status: 403) [Size: 169]                                                         
+/confirmemail.1       (Status: 403) [Size: 169]                                                         
+/.confirmemail.swp    (Status: 403) [Size: 169]                                                         
+/dbconfig.bak2        (Status: 403) [Size: 169]                                                         
+/dbconfig.old         (Status: 403) [Size: 169]                                                         
+/dbconfig.1           (Status: 403) [Size: 169]                                                         
+/.dbconfig.swp        (Status: 403) [Size: 169]                                                         
+/dbconfig             (Status: 403) [Size: 169]                                                         
+/dbconfig~            (Status: 403) [Size: 169]                                                         
+/dbconfig.bak         (Status: 403) [Size: 169]                                                         
+/msg_confirm          (Status: 403) [Size: 169]                                                         
+/msg_confirm~         (Status: 403) [Size: 169]                                                         
+/msg_confirm.bak      (Status: 403) [Size: 169]                                                         
+/msg_confirm.bak2     (Status: 403) [Size: 169]                                                         
+/msg_confirm.old      (Status: 403) [Size: 169]                                                         
+/msg_confirm.1        (Status: 403) [Size: 169]                                                         
+/.msg_confirm.swp     (Status: 403) [Size: 169]                                                         
+/.site-config.swp     (Status: 403) [Size: 169]                                                         
+/site-config          (Status: 403) [Size: 169]                                                         
+/site-config~         (Status: 403) [Size: 169]                                                         
+/site-config.bak      (Status: 403) [Size: 169]                                                         
+/site-config.bak2     (Status: 403) [Size: 169]                                                         
+/site-config.old      (Status: 403) [Size: 169]                                                         
+/site-config.1        (Status: 403) [Size: 169]                                                         
+/user_setconfig       (Status: 403) [Size: 169]                                                         
+/user_setconfig~      (Status: 403) [Size: 169]                                                         
+/user_setconfig.bak   (Status: 403) [Size: 169]                                                         
+/user_setconfig.bak2  (Status: 403) [Size: 169]                                                         
+/user_setconfig.old   (Status: 403) [Size: 169]                                                         
+/user_setconfig.1     (Status: 403) [Size: 169]                                                         
+/.user_setconfig.swp  (Status: 403) [Size: 169]                                                         
+/.XML                 (Status: 403) [Size: 169]                                                         
+/app_config~          (Status: 403) [Size: 169]                                                         
+/app_config.bak       (Status: 403) [Size: 169]                                                         
+/app_config.bak2      (Status: 403) [Size: 169]                                                         
+/app_config.old       (Status: 403) [Size: 169]                                                         
+/app_config.1         (Status: 403) [Size: 169]                                                         
+/.app_config.swp      (Status: 403) [Size: 169]                                                         
+/app_config           (Status: 403) [Size: 169]                                                         
+/autoconfig.1         (Status: 403) [Size: 169]                                                         
+/.autoconfig.swp      (Status: 403) [Size: 169]                                                         
+/autoconfig           (Status: 403) [Size: 169]                                                         
+/autoconfig~          (Status: 403) [Size: 169]                                                         
+/autoconfig.bak       (Status: 403) [Size: 169]                                                         
+/autoconfig.bak2      (Status: 403) [Size: 169]                                                         
+/autoconfig.old       (Status: 403) [Size: 169]                                                         
+/confidentialite.old  (Status: 403) [Size: 169]                                                         
+/.config_db.swp       (Status: 403) [Size: 169]                                                         
+/confidentialite.1    (Status: 403) [Size: 169]                                                         
+/config_db            (Status: 403) [Size: 169]                                                         
+/configuracion.bak2   (Status: 403) [Size: 169]                                                         
+/confluence.1         (Status: 403) [Size: 169]                                                         
+/.confidentialite.swp (Status: 403) [Size: 169]                                                         
+/config_db~           (Status: 403) [Size: 169]                                                         
+/configuracion.old    (Status: 403) [Size: 169]                                                         
+/.confluence.swp      (Status: 403) [Size: 169]                                                         
+/confidentialite      (Status: 403) [Size: 169]                                                         
+/config_db.bak        (Status: 403) [Size: 169]                                                         
+/configuracion.1      (Status: 403) [Size: 169]                                                         
+/confluence           (Status: 403) [Size: 169]                                                         
+/config_db.bak2       (Status: 403) [Size: 169]                                                         
+/confidentialite~     (Status: 403) [Size: 169]                                                         
+/.configuracion.swp   (Status: 403) [Size: 169]                                                         
+/confluence~          (Status: 403) [Size: 169]                                                         
+/confidentialite.bak  (Status: 403) [Size: 169]                                                         
+/config_db.old        (Status: 403) [Size: 169]                                                         
+/configuracion        (Status: 403) [Size: 169]                                                         
+/confluence.bak       (Status: 403) [Size: 169]                                                         
+/confidentialite.bak2 (Status: 403) [Size: 169]                                                         
+/config_db.1          (Status: 403) [Size: 169]                                                         
+/configuracion~       (Status: 403) [Size: 169]                                                         
+/confluence.bak2      (Status: 403) [Size: 169]                                                         
+/configuracion.bak    (Status: 403) [Size: 169]                                                         
+/confluence.old       (Status: 403) [Size: 169]                                                         
+/disappearing.bak     (Status: 403) [Size: 169]                                                         
+/disappearing.bak2    (Status: 403) [Size: 169]                                                         
+/disappearing.old     (Status: 403) [Size: 169]                                                         
+/disappearing.1       (Status: 403) [Size: 169]                                                         
+/.disappearing.swp    (Status: 403) [Size: 169]                                                         
+/disappearing         (Status: 403) [Size: 169]                                                         
+/disappearing~        (Status: 403) [Size: 169]                                                         
+/esw_config           (Status: 403) [Size: 169]                                                         
+/esw_config~          (Status: 403) [Size: 169]                                                         
+/esw_config.bak       (Status: 403) [Size: 169]                                                         
+/esw_config.bak2      (Status: 403) [Size: 169]                                                         
+/esw_config.old       (Status: 403) [Size: 169]                                                         
+/esw_config.1         (Status: 403) [Size: 169]                                                         
+/.esw_config.swp      (Status: 403) [Size: 169]                                                         
+/order_confirm.1      (Status: 403) [Size: 169]                                                         
+/.order_confirm.swp   (Status: 403) [Size: 169]                                                         
+/order_confirm        (Status: 403) [Size: 169]                                                         
+/order_confirm~       (Status: 403) [Size: 169]                                                         
+/order_confirm.bak    (Status: 403) [Size: 169]                                                         
+/order_confirm.bak2   (Status: 403) [Size: 169]                                                         
+/order_confirm.old    (Status: 403) [Size: 169]                                                         
+/pearl.1              (Status: 403) [Size: 169]                                                         
+/.pearl.swp           (Status: 403) [Size: 169]                                                         
+/pearl                (Status: 403) [Size: 169]                                                         
+/pearl~               (Status: 403) [Size: 169]                                                         
+/pearl.bak            (Status: 403) [Size: 169]                                                         
+/pearl.bak2           (Status: 403) [Size: 169]                                                         
+/pearl.old            (Status: 403) [Size: 169]                                                         
+/scriptconf~          (Status: 403) [Size: 169]                                                         
+/scriptconf.bak       (Status: 403) [Size: 169]                                                         
+/scriptconf.bak2      (Status: 403) [Size: 169]                                                         
+/scriptconf.old       (Status: 403) [Size: 169]                                                         
+/scriptconf.1         (Status: 403) [Size: 169]                                                         
+/.scriptconf.swp      (Status: 403) [Size: 169]                                                         
+/scriptconf           (Status: 403) [Size: 169]                                                         
+/siteconfig.bak       (Status: 403) [Size: 169]                                                         
+/siteconfig.bak2      (Status: 403) [Size: 169]                                                         
+/siteconfig.old       (Status: 403) [Size: 169]                                                         
+/siteconfig.1         (Status: 403) [Size: 169]                                                         
+/.siteconfig.swp      (Status: 403) [Size: 169]                                                         
+/siteconfig           (Status: 403) [Size: 169]                                                         
+/siteconfig~          (Status: 403) [Size: 169]                                                         
+/templates_conf       (Status: 403) [Size: 169]                                                         
+/templates_conf~      (Status: 403) [Size: 169]                                                         
+/templates_conf.bak   (Status: 403) [Size: 169]                                                         
+/templates_conf.bak2  (Status: 403) [Size: 169]                                                         
+/templates_conf.old   (Status: 403) [Size: 169]                                                         
+/templates_conf.1     (Status: 403) [Size: 169]                                                         
+/.templates_conf.swp  (Status: 403) [Size: 169]                                                         
+/BVConfigure~         (Status: 403) [Size: 169]                                                         
+/BVConfigure.bak      (Status: 403) [Size: 169]                                                         
+/BVConfigure.bak2     (Status: 403) [Size: 169]                                                         
+/BVConfigure.old      (Status: 403) [Size: 169]                                                         
+/BVConfigure.1        (Status: 403) [Size: 169]                                                         
+/.BVConfigure.swp     (Status: 403) [Size: 169]                                                         
+/BVConfigure          (Status: 403) [Size: 169]                                                         
+/CONFIG               (Status: 403) [Size: 169]                                                         
+/CONFIG~              (Status: 403) [Size: 169]                                                         
+/CONFIG.bak           (Status: 403) [Size: 169]                                                         
+/CONFIG.bak2          (Status: 403) [Size: 169]                                                         
+/CONFIG.old           (Status: 403) [Size: 169]                                                         
+/CONFIG.1             (Status: 403) [Size: 169]                                                         
+/.CONFIG.swp          (Status: 403) [Size: 169]                                                         
+/aaa-config.1         (Status: 403) [Size: 169]                                                         
+/.aaa-config.swp      (Status: 403) [Size: 169]                                                         
+/aaa-config           (Status: 403) [Size: 169]                                                         
+/aaa-config~          (Status: 403) [Size: 169]                                                         
+/aaa-config.bak       (Status: 403) [Size: 169]                                                         
+/aaa-config.bak2      (Status: 403) [Size: 169]                                                         
+/aaa-config.old       (Status: 403) [Size: 169]                                                         
+/conferencing.bak2    (Status: 403) [Size: 169]                                                         
+/confetti-brides.bak  (Status: 403) [Size: 169]                                                         
+/configurazione       (Status: 403) [Size: 169]                                                         
+/conferencing.old     (Status: 403) [Size: 169]                                                         
+/confetti-brides.bak2 (Status: 403) [Size: 169]                                                         
+/confetti-brides.old  (Status: 403) [Size: 169]                                                         
+/conferencing.1       (Status: 403) [Size: 169]                                                         
+/configurazione~      (Status: 403) [Size: 169]                                                         
+/configurazione.bak   (Status: 403) [Size: 169]                                                         
+/confetti-brides.1    (Status: 403) [Size: 169]                                                         
+/.conferencing.swp    (Status: 403) [Size: 169]                                                         
+/confirma.old         (Status: 403) [Size: 169]                                                         
+/conferencing         (Status: 403) [Size: 169]                                                         
+/configurazione.bak2  (Status: 403) [Size: 169]                                                         
+/.confetti-brides.swp (Status: 403) [Size: 169]                                                         
+/confirma.1           (Status: 403) [Size: 169]                                                         
+/conferencing~        (Status: 403) [Size: 169]                                                         
+/confirmacao.1        (Status: 403) [Size: 169]                                                         
+/configurazione.old   (Status: 403) [Size: 169]                                                         
+/.conflict.swp        (Status: 403) [Size: 169]                                                         
+/.confirma.swp        (Status: 403) [Size: 169]                                                         
+/confetti-brides      (Status: 403) [Size: 169]                                                         
+/conferencing.bak     (Status: 403) [Size: 169]                                                         
+/configurazione.1     (Status: 403) [Size: 169]                                                         
+/.confirmacao.swp     (Status: 403) [Size: 169]                                                         
+/conflict             (Status: 403) [Size: 169]                                                         
+/confetti-brides~     (Status: 403) [Size: 169]                                                         
+/confirma             (Status: 403) [Size: 169]                                                         
+/conflict~            (Status: 403) [Size: 169]                                                         
+/.configurazione.swp  (Status: 403) [Size: 169]                                                         
+/confirmacao          (Status: 403) [Size: 169]                                                         
+/confirma~            (Status: 403) [Size: 169]                                                         
+/conflict.bak         (Status: 403) [Size: 169]                                                         
+/confirmacao~         (Status: 403) [Size: 169]                                                         
+/confirma.bak         (Status: 403) [Size: 169]                                                         
+/conflict.bak2        (Status: 403) [Size: 169]                                                         
+/confirma.bak2        (Status: 403) [Size: 169]                                                         
+/confirmacao.bak      (Status: 403) [Size: 169]                                                         
+/conflict.old         (Status: 403) [Size: 169]                                                         
+/confirmacao.bak2     (Status: 403) [Size: 169]                                                         
+/conflict.1           (Status: 403) [Size: 169]                                                         
+/confirmacao.old      (Status: 403) [Size: 169]                                                         

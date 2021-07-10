@@ -1,0 +1,25 @@
+PORT     STATE SERVICE REASON  VERSION
+3306/tcp open  mysql   syn-ack MySQL 5.5.5-10.3.28-MariaDB
+| mysql-enum: 
+|   Valid usernames: 
+|     root:<empty> - Valid credentials
+|     netadmin:<empty> - Valid credentials
+|     guest:<empty> - Valid credentials
+|     user:<empty> - Valid credentials
+|     web:<empty> - Valid credentials
+|     sysadmin:<empty> - Valid credentials
+|     administrator:<empty> - Valid credentials
+|     webadmin:<empty> - Valid credentials
+|     admin:<empty> - Valid credentials
+|     test:<empty> - Valid credentials
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.28-MariaDB
+|   Thread ID: 25336
+|   Capabilities flags: 63486
+|   Some Capabilities: FoundRows, Support41Auth, Speaks41ProtocolNew, DontAllowDatabaseTableColumn, Speaks41ProtocolOld, ODBCClient, IgnoreSpaceBeforeParenthesis, SupportsCompression, IgnoreSigpipes, LongColumnFlag, ConnectWithDatabase, SupportsLoadDataLocal, InteractiveClient, SupportsTransactions, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: G]}!'?H,BH!iqz1&fQDA
+|_  Auth Plugin Name: 94
+

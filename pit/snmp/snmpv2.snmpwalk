@@ -1,0 +1,75 @@
+NET-SNMP-EXTEND-MIB::nsExtendNumEntries.0 = INTEGER: 1
+NET-SNMP-EXTEND-MIB::nsExtendCommand."monitoring" = STRING: /usr/bin/monitor
+NET-SNMP-EXTEND-MIB::nsExtendArgs."monitoring" = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendInput."monitoring" = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendCacheTime."monitoring" = INTEGER: 5
+NET-SNMP-EXTEND-MIB::nsExtendExecType."monitoring" = INTEGER: exec(1)
+NET-SNMP-EXTEND-MIB::nsExtendRunType."monitoring" = INTEGER: run-on-read(1)
+NET-SNMP-EXTEND-MIB::nsExtendStorage."monitoring" = INTEGER: permanent(4)
+NET-SNMP-EXTEND-MIB::nsExtendStatus."monitoring" = INTEGER: active(1)
+NET-SNMP-EXTEND-MIB::nsExtendOutput1Line."monitoring" = STRING: Memory usage
+NET-SNMP-EXTEND-MIB::nsExtendOutputFull."monitoring" = STRING: Memory usage
+              total        used        free      shared  buff/cache   available
+Mem:          3.8Gi       371Mi       3.1Gi        16Mi       397Mi       3.2Gi
+Swap:         1.9Gi          0B       1.9Gi
+Database status
+OK - Connection to database successful.
+System release info
+CentOS Linux release 8.3.2011
+SELinux Settings
+user
+
+                Labeling   MLS/       MLS/                          
+SELinux User    Prefix     MCS Level  MCS Range                      SELinux Roles
+
+guest_u         user       s0         s0                             guest_r
+root            user       s0         s0-s0:c0.c1023                 staff_r sysadm_r system_r unconfined_r
+staff_u         user       s0         s0-s0:c0.c1023                 staff_r sysadm_r unconfined_r
+sysadm_u        user       s0         s0-s0:c0.c1023                 sysadm_r
+system_u        user       s0         s0-s0:c0.c1023                 system_r unconfined_r
+unconfined_u    user       s0         s0-s0:c0.c1023                 system_r unconfined_r
+user_u          user       s0         s0                             user_r
+xguest_u        user       s0         s0                             xguest_r
+login
+
+Login Name           SELinux User         MLS/MCS Range        Service
+
+__default__          unconfined_u         s0-s0:c0.c1023       *
+michelle             user_u               s0                   *
+root                 unconfined_u         s0-s0:c0.c1023       *
+System uptime
+ 15:13:02 up 13:59,  0 users,  load average: 0.00, 0.00, 0.00
+NET-SNMP-EXTEND-MIB::nsExtendOutNumLines."monitoring" = INTEGER: 31
+NET-SNMP-EXTEND-MIB::nsExtendResult."monitoring" = INTEGER: 0
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".1 = STRING: Memory usage
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".2 = STRING:               total        used        free      shared  buff/cache   available
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".3 = STRING: Mem:          3.8Gi       371Mi       3.1Gi        16Mi       397Mi       3.2Gi
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".4 = STRING: Swap:         1.9Gi          0B       1.9Gi
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".5 = STRING: Database status
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".6 = STRING: OK - Connection to database successful.
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".7 = STRING: System release info
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".8 = STRING: CentOS Linux release 8.3.2011
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".9 = STRING: SELinux Settings
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".10 = STRING: user
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".11 = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".12 = STRING:                 Labeling   MLS/       MLS/                          
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".13 = STRING: SELinux User    Prefix     MCS Level  MCS Range                      SELinux Roles
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".14 = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".15 = STRING: guest_u         user       s0         s0                             guest_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".16 = STRING: root            user       s0         s0-s0:c0.c1023                 staff_r sysadm_r system_r unconfined_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".17 = STRING: staff_u         user       s0         s0-s0:c0.c1023                 staff_r sysadm_r unconfined_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".18 = STRING: sysadm_u        user       s0         s0-s0:c0.c1023                 sysadm_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".19 = STRING: system_u        user       s0         s0-s0:c0.c1023                 system_r unconfined_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".20 = STRING: unconfined_u    user       s0         s0-s0:c0.c1023                 system_r unconfined_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".21 = STRING: user_u          user       s0         s0                             user_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".22 = STRING: xguest_u        user       s0         s0                             xguest_r
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".23 = STRING: login
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".24 = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".25 = STRING: Login Name           SELinux User         MLS/MCS Range        Service
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".26 = STRING: 
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".27 = STRING: __default__          unconfined_u         s0-s0:c0.c1023       *
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".28 = STRING: michelle             user_u               s0                   *
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".29 = STRING: root                 unconfined_u         s0-s0:c0.c1023       *
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".30 = STRING: System uptime
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".31 = STRING:  15:13:02 up 13:59,  0 users,  load average: 0.00, 0.00, 0.00
+NET-SNMP-EXTEND-MIB::nsExtendOutLine."monitoring".31 = No more variables left in this MIB View (It is past the end of the MIB tree)

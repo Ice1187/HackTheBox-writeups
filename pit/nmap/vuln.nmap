@@ -1,0 +1,30 @@
+# Nmap 7.80 scan initiated Sat Jul 10 01:15:47 2021 as: nmap --script vuln -oN vuln.nmap 10.10.10.241
+Nmap scan report for pit.htb (10.10.10.241)
+Host is up (0.75s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+80/tcp   open  http
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-vuln-cve2011-3192: 
+|   VULNERABLE:
+|   Apache byterange filter DoS
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2011-3192  BID:49303
+|       The Apache web server is vulnerable to a denial of service attack when numerous
+|       overlapping byte ranges are requested.
+|     Disclosure date: 2011-08-19
+|     References:
+|       https://www.tenable.com/plugins/nessus/55976
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192
+|       https://www.securityfocus.com/bid/49303
+|_      https://seclists.org/fulldisclosure/2011/Aug/175
+9090/tcp open  zeus-admin
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_sslv2-drown: 
+
+# Nmap done at Sat Jul 10 01:23:50 2021 -- 1 IP address (1 host up) scanned in 482.60 seconds
