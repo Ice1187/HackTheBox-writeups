@@ -1,0 +1,9 @@
+$ sudo /opt/john/run/john --wordlist=/opt/SecLists/Passwords/Leaked-Databases/rockyou.txt admin-cred.hash --format=bcrypt
+Using default input encoding: UTF-8
+Loaded 1 password hash (bcrypt [Blowfish 32/64 X3])
+Cost 1 (iteration count) is 1024 for all loaded hashes
+Will run 2 OpenMP threads
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+!QAZ2wsx         (?)     
+1g 0:00:02:43 DONE (2021-07-12 06:40) 0.006119g/s 85.03p/s 85.03c/s 85.03C/s 110486..stretch
+

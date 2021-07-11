@@ -1,0 +1,12 @@
+# Nmap 7.80 scan initiated Mon Jul 12 01:02:03 2021 as: nmap -sC -sU -oN udp.nmap -vvv 10.10.10.234
+Increasing send delay for 10.10.10.234 from 0 to 50 due to 206 out of 686 dropped probes since last increase.
+Nmap scan report for schooled.htb (10.10.10.234)
+Host is up, received reset ttl 63 (0.11s latency).
+Scanned at 2021-07-12 01:02:03 CST for 41s
+Not shown: 999 closed ports
+Reason: 999 port-unreaches
+PORT    STATE         SERVICE REASON
+514/udp open|filtered syslog  no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 12 01:02:44 2021 -- 1 IP address (1 host up) scanned in 40.83 seconds

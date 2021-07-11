@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Mon Jul 12 01:14:30 2021 as: nmap -sT -p- -vvv -oN all-tcp.nmap 10.10.10.234
+Nmap scan report for schooled.htb (10.10.10.234)
+Host is up, received syn-ack (0.10s latency).
+Scanned at 2021-07-12 01:14:30 CST for 859s
+Not shown: 65532 closed ports
+Reason: 65532 conn-refused
+PORT      STATE SERVICE REASON
+22/tcp    open  ssh     syn-ack
+80/tcp    open  http    syn-ack
+33060/tcp open  mysqlx  syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 12 01:28:49 2021 -- 1 IP address (1 host up) scanned in 858.48 seconds
