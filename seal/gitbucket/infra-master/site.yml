@@ -1,0 +1,10 @@
+---
+# This playbook deploys a simple standalone Tomcat 9 server.
+
+- hosts: tomcat-servers
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  roles:
+    - tomcat

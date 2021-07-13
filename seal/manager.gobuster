@@ -1,0 +1,6 @@
+//manager             (Status: 302) [Size: 0] [--> http://seal.htb/manager/]
+//manager/html        (Status: 403) [Size: 162]
+//manager/html/       (Status: 403) [Size: 162]
+//manager/status      (Status: 200) [Size: 7536]
+//manager/jmxproxy    (Status: 403) [Size: 3446]
+//manager/text        (Status: 403) [Size: 3446]

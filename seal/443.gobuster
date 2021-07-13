@@ -1,0 +1,7 @@
+/images               (Status: 302) [Size: 0] [--> http://seal.htb/images/]
+/js                   (Status: 302) [Size: 0] [--> http://seal.htb/js/]
+/admin                (Status: 302) [Size: 0] [--> http://seal.htb/admin/]
+/css                  (Status: 302) [Size: 0] [--> http://seal.htb/css/]
+/manager              (Status: 302) [Size: 0] [--> http://seal.htb/manager/]
+/.                    (Status: 200) [Size: 19737]
+/icon                 (Status: 302) [Size: 0] [--> http://seal.htb/icon/]
