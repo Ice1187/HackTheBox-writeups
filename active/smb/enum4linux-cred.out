@@ -1,0 +1,274 @@
+[92mENUM4LINUX - next generation[0m
+
+ ==========================
+|    Target Information    |
+ ==========================
+[94m[*] Target ........... 10.10.10.100[0m
+[94m[*] Username ......... 'Administrator'[0m
+[94m[*] Random Username .. 'hquztdlv'[0m
+[94m[*] Password ......... 'Ticketmaster1968'[0m
+[94m[*] Timeout .......... 5 second(s)[0m
+
+ ====================================
+|    Service Scan on 10.10.10.100    |
+ ====================================
+[94m[*] Checking LDAP[0m
+[92m[+] LDAP is accessible on 389/tcp[0m
+[94m[*] Checking LDAPS[0m
+[92m[+] LDAPS is accessible on 636/tcp[0m
+[94m[*] Checking SMB[0m
+[92m[+] SMB is accessible on 445/tcp[0m
+[94m[*] Checking SMB over NetBIOS[0m
+[92m[+] SMB over NetBIOS is accessible on 139/tcp[0m
+
+ ====================================================
+|    Domain Information via LDAP for 10.10.10.100    |
+ ====================================================
+[94m[*] Trying LDAP[0m
+[92m[+] Appears to be root/parent DC[0m
+[92m[+] Long domain name is: active.htb[0m
+
+ ====================================================
+|    NetBIOS Names and Workgroup for 10.10.10.100    |
+ ====================================================
+[91m[-] Could not get NetBIOS names information via 'nmblookup': timed out[0m
+
+ =========================================
+|    SMB Dialect Check on 10.10.10.100    |
+ =========================================
+[94m[*] Check for legacy SMBv1 on 445/tcp[0m
+[92m[+] Server supports dialects higher SMBv1[0m
+
+ =========================================
+|    RPC Session Check on 10.10.10.100    |
+ =========================================
+[94m[*] Check for null session[0m
+[92m[+] Server allows session using username '', password ''[0m
+[94m[*] Check for user session[0m
+[92m[+] Server allows session using username 'Administrator', password 'Ticketmaster1968'[0m
+[94m[*] Check for random user session[0m
+[91m[-] Could not establish random user session: STATUS_LOGON_FAILURE[0m
+
+ ===================================================
+|    Domain Information via RPC for 10.10.10.100    |
+ ===================================================
+[92m[+] Domain: ACTIVE[0m
+[92m[+] SID: S-1-5-21-405608879-3187717380-1996298813[0m
+[92m[+] Host is part of a domain (not a workgroup)[0m
+
+ ==============================================
+|    OS Information via RPC on 10.10.10.100    |
+ ==============================================
+[92m[+] The following OS information were found:
+server_type_string = Wk Sv PDC Tim NT     Domain Controller
+platform_id        = 500
+os_version         = 6.1
+server_type        = 0x80102b
+os                 = Windows 7, Windows Server 2008 R2[0m
+
+ =====================================
+|    Users via RPC on 10.10.10.100    |
+ =====================================
+[94m[*] Enumerating users via 'querydispinfo'[0m
+[92m[+] Found 4 users via 'querydispinfo'[0m
+[94m[*] Enumerating users via 'enumdomusers'[0m
+[92m[+] Found 4 users via 'enumdomusers'[0m
+[92m[+] After merging user results we have 4 users total:
+'1103':
+  username: SVC_TGS
+  name: SVC_TGS
+  acb: '0x00000210'
+  description: (null)
+'500':
+  username: Administrator
+  name: (null)
+  acb: '0x00000210'
+  description: Built-in account for administering the computer/domain
+'501':
+  username: Guest
+  name: (null)
+  acb: '0x00000215'
+  description: Built-in account for guest access to the computer/domain
+'502':
+  username: krbtgt
+  name: (null)
+  acb: '0x00020011'
+  description: Key Distribution Center Service Account[0m
+
+ ======================================
+|    Groups via RPC on 10.10.10.100    |
+ ======================================
+[94m[*] Enumerating local groups[0m
+[92m[+] Found 5 groups via 'enumalsgroups domain'[0m
+[94m[*] Enumerating builtin groups[0m
+[92m[+] Found 21 groups via 'enumalsgroups builtin'[0m
+[94m[*] Enumerating domain groups[0m
+[92m[+] Found 11 groups via 'enumdomgroups'[0m
+[92m[+] After merging groups results we have 37 groups total:
+'1101':
+  groupname: DnsAdmins
+  type: local
+'1102':
+  groupname: DnsUpdateProxy
+  type: domain
+'498':
+  groupname: Enterprise Read-only Domain Controllers
+  type: domain
+'512':
+  groupname: Domain Admins
+  type: domain
+'513':
+  groupname: Domain Users
+  type: domain
+'514':
+  groupname: Domain Guests
+  type: domain
+'515':
+  groupname: Domain Computers
+  type: domain
+'516':
+  groupname: Domain Controllers
+  type: domain
+'517':
+  groupname: Cert Publishers
+  type: local
+'518':
+  groupname: Schema Admins
+  type: domain
+'519':
+  groupname: Enterprise Admins
+  type: domain
+'520':
+  groupname: Group Policy Creator Owners
+  type: domain
+'521':
+  groupname: Read-only Domain Controllers
+  type: domain
+'544':
+  groupname: Administrators
+  type: builtin
+'545':
+  groupname: Users
+  type: builtin
+'546':
+  groupname: Guests
+  type: builtin
+'548':
+  groupname: Account Operators
+  type: builtin
+'549':
+  groupname: Server Operators
+  type: builtin
+'550':
+  groupname: Print Operators
+  type: builtin
+'551':
+  groupname: Backup Operators
+  type: builtin
+'552':
+  groupname: Replicator
+  type: builtin
+'553':
+  groupname: RAS and IAS Servers
+  type: local
+'554':
+  groupname: Pre-Windows 2000 Compatible Access
+  type: builtin
+'555':
+  groupname: Remote Desktop Users
+  type: builtin
+'556':
+  groupname: Network Configuration Operators
+  type: builtin
+'557':
+  groupname: Incoming Forest Trust Builders
+  type: builtin
+'558':
+  groupname: Performance Monitor Users
+  type: builtin
+'559':
+  groupname: Performance Log Users
+  type: builtin
+'560':
+  groupname: Windows Authorization Access Group
+  type: builtin
+'561':
+  groupname: Terminal Server License Servers
+  type: builtin
+'562':
+  groupname: Distributed COM Users
+  type: builtin
+'568':
+  groupname: IIS_IUSRS
+  type: builtin
+'569':
+  groupname: Cryptographic Operators
+  type: builtin
+'571':
+  groupname: Allowed RODC Password Replication Group
+  type: local
+'572':
+  groupname: Denied RODC Password Replication Group
+  type: local
+'573':
+  groupname: Event Log Readers
+  type: builtin
+'574':
+  groupname: Certificate Service DCOM Access
+  type: builtin[0m
+
+ ======================================
+|    Shares via RPC on 10.10.10.100    |
+ ======================================
+[94m[*] Enumerating shares[0m
+[92m[+] Found 7 share(s):
+ADMIN$:
+  comment: Remote Admin
+  type: Disk
+C$:
+  comment: Default share
+  type: Disk
+IPC$:
+  comment: Remote IPC
+  type: IPC
+NETLOGON:
+  comment: Logon server share
+  type: Disk
+Replication:
+  comment: ''
+  type: Disk
+SYSVOL:
+  comment: Logon server share
+  type: Disk
+Users:
+  comment: ''
+  type: Disk[0m
+[94m[*] Testing share ADMIN$[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+[94m[*] Testing share C$[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+[94m[*] Testing share IPC$[0m
+[91m[-] Could not check share: STATUS_INVALID_PARAMETER[0m
+[94m[*] Testing share NETLOGON[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+[94m[*] Testing share Replication[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+[94m[*] Testing share SYSVOL[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+[94m[*] Testing share Users[0m
+[92m[+] Mapping: OK, Listing: OK[0m
+
+ =========================================
+|    Policies via RPC for 10.10.10.100    |
+ =========================================
+[94m[*] Trying port 445/tcp[0m
+[91m[-] DCE/SAMR named pipe connect failed on port 445/tcp[0m
+[94m[*] Trying port 139/tcp[0m
+[91m[-] DCE/SAMR named pipe connect failed on port 139/tcp[0m
+
+ =========================================
+|    Printers via RPC for 10.10.10.100    |
+ =========================================
+[92m[+] No printers available[0m
+
+Completed after 36.14 seconds
