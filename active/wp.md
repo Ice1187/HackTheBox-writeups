@@ -49,7 +49,7 @@ Administrator     |Ticketmaster1968          |         |
 ./Policies/{6AC1786C-016F-11D2-945F-00C04fB984F9}/MACHINE/Microsoft/Windows NT/SecEdit/GptTmpl.inf
 ./Policies/{6AC1786C-016F-11D2-945F-00C04fB984F9}/GPT.INI
 ```
-2. According this [article](https://adsecurity.org/?p=2288), the `active.htb` obtained earlier should be SOSVOL share. Thus, we can crack the user `active.htb\SVC_TGS`'s password from `Groups.xml`. Throw it into CyberChef, choose base64 -> AES-CBC with IV=NULL, then get the password `GPPstillStandingStrong2k18`.
+2. According this [article](https://adsecurity.org/?p=2288), the `active.htb` obtained earlier should be in `SYSVOL` share. Thus, we can crack the user `active.htb\SVC_TGS`'s password from `Groups.xml`. Throw it into CyberChef, choose base64 -> AES-CBC with IV=NULL, then get the password `GPPstillStandingStrong2k18`.
 ```
 $ cat Policies/\{31B2F340-016D-11D2-945F-00C04FB984F9\}/MACHINE/Preferences/Groups/Groups.xml
 ...
