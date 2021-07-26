@@ -56,7 +56,7 @@ $ sudo john --wordlist=/opt/SecLists/Passwords/Leaked-Databases/rockyou.txt cred
 
 ### Root
 1. Found `mRemoteNG` is installed by looking into `\Program Files (x86)`, and get the encrypted password of the app at `\Users\L4mpje\AppData\Roaming\mRemoteNG`.
-2. Dcrypt the password with [mremoteng-decrypt](https://github.com/kmahyyg/mremoteng-decrypt).
+2. Decrypt the password with [mremoteng-decrypt](https://github.com/kmahyyg/mremoteng-decrypt).
 ```
 $ python3 mremoteng_decrypt.py -s aEWNFV5uGcjUHF0uS17QTdT9kVqtKCPeoC0Nw5dmaPFjNQ2kt/zO5xDqE4HdVmHAowVRdC7emf7l
 WWA10dQKiw==
