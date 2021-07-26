@@ -1,0 +1,90 @@
+[92mENUM4LINUX - next generation[0m
+
+ ==========================
+|    Target Information    |
+ ==========================
+[94m[*] Target ........... 10.10.10.134[0m
+[94m[*] Username ......... ''[0m
+[94m[*] Random Username .. 'vofkmnlq'[0m
+[94m[*] Password ......... ''[0m
+[94m[*] Timeout .......... 5 second(s)[0m
+
+ ====================================
+|    Service Scan on 10.10.10.134    |
+ ====================================
+[94m[*] Checking LDAP[0m
+[91m[-] Could not connect to LDAP on 389/tcp: connection refused[0m
+[94m[*] Checking LDAPS[0m
+[91m[-] Could not connect to LDAPS on 636/tcp: connection refused[0m
+[94m[*] Checking SMB[0m
+[92m[+] SMB is accessible on 445/tcp[0m
+[94m[*] Checking SMB over NetBIOS[0m
+[92m[+] SMB over NetBIOS is accessible on 139/tcp[0m
+
+ ====================================================
+|    NetBIOS Names and Workgroup for 10.10.10.134    |
+ ====================================================
+[91m[-] Could not get NetBIOS names information via 'nmblookup': timed out[0m
+
+ =========================================
+|    SMB Dialect Check on 10.10.10.134    |
+ =========================================
+[94m[*] Check for legacy SMBv1 on 445/tcp[0m
+[92m[+] Server supports dialects higher SMBv1[0m
+
+ =========================================
+|    RPC Session Check on 10.10.10.134    |
+ =========================================
+[94m[*] Check for null session[0m
+[91m[-] Could not establish null session: STATUS_ACCESS_DENIED[0m
+[94m[*] Check for random user session[0m
+[92m[+] Server allows session using username 'vofkmnlq', password ''[0m
+[92m[H] Rerunning enumeration with user 'vofkmnlq' might give more results[0m
+
+ ===================================================
+|    Domain Information via RPC for 10.10.10.134    |
+ ===================================================
+[91m[-] Could not get domain information via 'lsaquery': STATUS_ACCESS_DENIED[0m
+
+ ==============================================
+|    OS Information via RPC on 10.10.10.134    |
+ ==============================================
+[91m[-] Could not get OS info via 'srvinfo': STATUS_ACCESS_DENIED[0m
+
+ =====================================
+|    Users via RPC on 10.10.10.134    |
+ =====================================
+[94m[*] Enumerating users via 'querydispinfo'[0m
+[91m[-] Could not find users via 'querydispinfo': STATUS_ACCESS_DENIED[0m
+[94m[*] Enumerating users via 'enumdomusers'[0m
+[91m[-] Could not find users via 'enumdomusers': STATUS_ACCESS_DENIED[0m
+
+ ======================================
+|    Groups via RPC on 10.10.10.134    |
+ ======================================
+[94m[*] Enumerating local groups[0m
+[91m[-] Could not get groups via 'enumalsgroups domain': STATUS_ACCESS_DENIED[0m
+[94m[*] Enumerating builtin groups[0m
+[91m[-] Could not get groups via 'enumalsgroups builtin': STATUS_ACCESS_DENIED[0m
+[94m[*] Enumerating domain groups[0m
+[91m[-] Could not get groups via 'enumdomgroups': STATUS_ACCESS_DENIED[0m
+
+ ======================================
+|    Shares via RPC on 10.10.10.134    |
+ ======================================
+[91m[-] Could not list shares: STATUS_ACCESS_DENIED[0m
+
+ =========================================
+|    Policies via RPC for 10.10.10.134    |
+ =========================================
+[94m[*] Trying port 445/tcp[0m
+[91m[-] DCE/SAMR named pipe connect failed on port 445/tcp[0m
+[94m[*] Trying port 139/tcp[0m
+[91m[-] DCE/SAMR named pipe connect failed on port 139/tcp[0m
+
+ =========================================
+|    Printers via RPC for 10.10.10.134    |
+ =========================================
+[91m[-] Could not get printer info via 'enumprinters': STATUS_ACCESS_DENIED[0m
+
+Completed after 12.05 seconds
