@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Wed Jul 28 15:21:49 2021 as: nmap -sC -sV -oN ports.nmap -vvvv 10.129.196.115
+Nmap scan report for 10.129.196.115
+Host is up, received syn-ack (0.35s latency).
+Scanned at 2021-07-28 15:21:49 CST for 55s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.41 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 556F31ACD686989B1AFCF382C05846AA
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Bounty Hunters
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 28 15:22:44 2021 -- 1 IP address (1 host up) scanned in 55.40 seconds
