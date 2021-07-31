@@ -1,0 +1,60 @@
+# Nmap 7.80 scan initiated Wed Jul 28 18:15:23 2021 as: nmap -sC -sV -oN ports.nmap -vvvvv 10.10.10.161
+Nmap scan report for 10.10.10.161
+Host is up, received conn-refused (0.16s latency).
+Scanned at 2021-07-28 18:15:24 CST for 302s
+Not shown: 989 closed ports
+Reason: 989 conn-refused
+PORT     STATE SERVICE      REASON  VERSION
+53/tcp   open  domain?      syn-ack
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+88/tcp   open  kerberos-sec syn-ack Microsoft Windows Kerberos (server time: 2021-07-28 10:22:39Z)
+135/tcp  open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp  open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+389/tcp  open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds syn-ack Windows Server 2016 Standard 14393 microsoft-ds (workgroup: HTB)
+464/tcp  open  kpasswd5?    syn-ack
+593/tcp  open  ncacn_http   syn-ack Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped   syn-ack
+3268/tcp open  ldap         syn-ack Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped   syn-ack
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=7/28%Time=61012E5B%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03");
+Service Info: Host: FOREST; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2h26m49s, deviation: 4h02m31s, median: 6m48s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 3745/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 32753/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 44144/udp): CLEAN (Timeout)
+|   Check 4 (port 44587/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: FOREST
+|   NetBIOS computer name: FOREST\x00
+|   Domain name: htb.local
+|   Forest name: htb.local
+|   FQDN: FOREST.htb.local
+|_  System time: 2021-07-28T03:25:02-07:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2021-07-28T10:25:00
+|_  start_date: 2021-07-28T05:30:05
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 28 18:20:26 2021 -- 1 IP address (1 host up) scanned in 302.38 seconds
