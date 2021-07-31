@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sat Jul 31 16:49:38 2021 as: nmap -p- -oN all-ports.nmap 10.10.10.138
+Nmap scan report for writeup.htb (10.10.10.138)
+Host is up (0.080s latency).
+Scanned at 2021-07-31 16:49:38 CST for 125s
+Not shown: 65533 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul 31 16:51:43 2021 -- 1 IP address (1 host up) scanned in 125.65 seconds
