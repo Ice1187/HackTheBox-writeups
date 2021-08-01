@@ -1,0 +1,22 @@
+# Nmap 7.80 scan initiated Sun Aug  1 15:25:32 2021 as: nmap -sC -sV -oN ports.nmap -vvvvv 10.10.10.244
+Increasing send delay for 10.10.10.244 from 0 to 5 due to 28 out of 93 dropped probes since last increase.
+Nmap scan report for 10.10.10.244
+Host is up, received syn-ack (0.12s latency).
+Scanned at 2021-08-01 15:25:33 CST for 23s
+Not shown: 997 closed ports
+Reason: 997 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+53/tcp open  domain  syn-ack ISC BIND 9.16.1 (Ubuntu Linux)
+| dns-nsid: 
+|_  bind.version: 9.16.1-Ubuntu
+80/tcp open  http    syn-ack Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Dyna DNS
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug  1 15:25:57 2021 -- 1 IP address (1 host up) scanned in 24.23 seconds
