@@ -68,7 +68,7 @@ echo " "
 echo "Last 5 journal log lines:"
 /usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service | /usr/bin/cat
 ```
-2. Shrink the column of the tty to less then 5, so we can be sent into `less`. Then use `less` to spawn a shell and get the root flag.
+2. Shrink the column of the tty to less than 5, so we can be sent into `less`. Then use `less` to spawn a shell and get the root flag.
 ```
 $ stty cols 4
 $ /usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service
