@@ -1,0 +1,8 @@
+/contact              (Status: 200) [Size: 4905]
+/logout               (Status: 302) [Size: 208] [--> http://10.10.11.101/]
+/about                (Status: 200) [Size: 3522]
+/static               (Status: 301) [Size: 313] [--> http://10.10.11.101/static/]
+/.                    (Status: 200) [Size: 12977]
+/dashboard            (Status: 302) [Size: 208] [--> http://10.10.11.101/]
+/server-status        (Status: 403) [Size: 277]
+/administrative       (Status: 200) [Size: 1443]
