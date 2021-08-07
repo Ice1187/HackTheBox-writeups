@@ -1,0 +1,4186 @@
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 571
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1597
+    /Length2 8511
+    /Length3 0
+    /Length 9551
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1794
+    /Length2 13406
+    /Length3 0
+    /Length 14540
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160813-04'00')"
+    /ModDate "(D:20210413160813-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 785
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<E142E64CDB998FCE1CC045E0B4ECD54B> <E142E64CDB998FCE1CC045E0B4ECD54B>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26156
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Nicole.Brock)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <E142E64CDB998FCE1CC045E0B4ECD54B> <e442E64CDB998FCE1CC045E0B4ECD54B> ]
+    /Length 28
+    /Prev 26156
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26466\n'
+
+startxref 26583
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 295
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1644
+    /Length2 8756
+    /Length3 0
+    /Length 9817
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1648
+    /Length2 11724
+    /Length3 0
+    /Length 12791
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160607-04'00')"
+    /ModDate "(D:20210413160607-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 770
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<826AFC27B24DD2D861C487C3DC15C18B> <826AFC27B24DD2D861C487C3DC15C18B>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 24382
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (David.Reed)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <826AFC27B24DD2D861C487C3DC15C18B> <856AFC27B24DD2D861C487C3DC15C18B> ]
+    /Length 28
+    /Prev 24382
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 24692\n'
+
+startxref 24807
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 797
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1582
+    /Length2 8275
+    /Length3 0
+    /Length 9311
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1822
+    /Length2 13763
+    /Length3 0
+    /Length 14907
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160725-04'00')"
+    /ModDate "(D:20210413160725-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 789
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<A0581B7E7F013F27314AC751BB2FB42B> <A0581B7E7F013F27314AC751BB2FB42B>]
+    /Length 59
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26513
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Jose.Williams)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <A0581B7E7F013F27314AC751BB2FB42B> <a3581B7E7F013F27314AC751BB2FB42B> ]
+    /Length 28
+    /Prev 26513
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26822\n'
+
+startxref 26940
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 117
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1626
+    /Length2 8881
+    /Length3 0
+    /Length 9931
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160705-04'00')"
+    /ModDate "(D:20210413160705-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 548
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<9A0750B043DBFD161145BA625D9A35AE> <9A0750B043DBFD161145BA625D9A35AE>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 11183
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (David.Wilson)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <9A0750B043DBFD161145BA625D9A35AE> <9d0750B043DBFD161145BA625D9A35AE> ]
+    /Length 28
+    /Prev 11183
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 11483\n'
+
+startxref 11600
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 555
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1627
+    /Length2 8884
+    /Length3 0
+    /Length 9937
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1752
+    /Length2 12883
+    /Length3 0
+    /Length 13997
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160708-04'00')"
+    /ModDate "(D:20210413160708-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 777
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<4C4703FA551E35C1BBA637A0C3E29671> <4C4703FA551E35C1BBA637A0C3E29671>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 25975
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Daniel.Shelton)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <4C4703FA551E35C1BBA637A0C3E29671> <4f4703FA551E35C1BBA637A0C3E29671> ]
+    /Length 28
+    /Prev 25975
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26285\n'
+
+startxref 26404
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 971
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1645
+    /Length2 9009
+    /Length3 0
+    /Length 10076
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1850
+    /Length2 14206
+    /Length3 0
+    /Length 15364
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160650-04'00')"
+    /ModDate "(D:20210413160650-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 786
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<55D8E1718ED2DA1970403F84CA8C4609> <55D8E1718ED2DA1970403F84CA8C4609>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 27906
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Danny.Matthews)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <55D8E1718ED2DA1970403F84CA8C4609> <58D8E1718ED2DA1970403F84CA8C4609> ]
+    /Length 28
+    /Prev 27906
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 28216\n'
+
+startxref 28335
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 109
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1596
+    /Length2 8544
+    /Length3 0
+    /Length 9579
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160719-04'00')"
+    /ModDate "(D:20210413160719-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 545
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<EE37A21F64AA67519FE368A77FC4D1EA> <EE37A21F64AA67519FE368A77FC4D1EA>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10820
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (David.Mcbride)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <EE37A21F64AA67519FE368A77FC4D1EA> <f137A21F64AA67519FE368A77FC4D1EA> ]
+    /Length 28
+    /Prev 10820
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 11120\n'
+
+startxref 11238
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 105
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1626
+    /Length2 8849
+    /Length3 0
+    /Length 9898
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160812-04'00')"
+    /ModDate "(D:20210413160812-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 548
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<20178F1B1D302AF7949B7930DC9BB533> <20178F1B1D302AF7949B7930DC9BB533>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 11138
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Nicole.Brock)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <20178F1B1D302AF7949B7930DC9BB533> <23178F1B1D302AF7949B7930DC9BB533> ]
+    /Length 28
+    /Prev 11138
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 11438\n'
+
+startxref 11555
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 94
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1582
+    /Length2 8254
+    /Length3 0
+    /Length 9287
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160643-04'00')"
+    /ModDate "(D:20210413160643-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 542
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<D38B0CA013E44571F0BCDDED8F0B0DE0> <D38B0CA013E44571F0BCDDED8F0B0DE0>]
+    /Length 49
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10510
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (John.Coleman)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <D38B0CA013E44571F0BCDDED8F0B0DE0> <d68B0CA013E44571F0BCDDED8F0B0DE0> ]
+    /Length 28
+    /Prev 10510
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10809\n'
+
+startxref 10926
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 656
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1645
+    /Length2 8809
+    /Length3 0
+    /Length 9867
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1794
+    /Length2 13506
+    /Length3 0
+    /Length 14636
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160606-04'00')"
+    /ModDate "(D:20210413160606-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 780
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<9D0452F16C0330A87F8ABA83BD0A3FB2> <9D0452F16C0330A87F8ABA83BD0A3FB2>]
+    /Length 61
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26648
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Jason.Wright)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <9D0452F16C0330A87F8ABA83BD0A3FB2> <a00452F16C0330A87F8ABA83BD0A3FB2> ]
+    /Length 28
+    /Prev 26648
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26959\n'
+
+startxref 27076
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 152
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1659
+    /Length2 9041
+    /Length3 0
+    /Length 10109
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160838-04'00')"
+    /ModDate "(D:20210413160838-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 556
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<F26F3C1D80F63AA48FF35FB663862B31> <F26F3C1D80F63AA48FF35FB663862B31>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 11404
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Richard.Williams)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <F26F3C1D80F63AA48FF35FB663862B31> <f56F3C1D80F63AA48FF35FB663862B31> ]
+    /Length 28
+    /Prev 11404
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 11704\n'
+
+startxref 11825
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 675
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1611
+    /Length2 8573
+    /Length3 0
+    /Length 9616
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1822
+    /Length2 13825
+    /Length3 0
+    /Length 14967
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160644-04'00')"
+    /ModDate "(D:20210413160644-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 785
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<C400DB8B022BF0EE6133AEBE97B6CE2E> <C400DB8B022BF0EE6133AEBE97B6CE2E>]
+    /Length 59
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26752
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (John.Coleman)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <C400DB8B022BF0EE6133AEBE97B6CE2E> <c700DB8B022BF0EE6133AEBE97B6CE2E> ]
+    /Length 28
+    /Prev 26752
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 27061\n'
+
+startxref 27178
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 550
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1508
+    /Length2 7534
+    /Length3 0
+    /Length 8539
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1751
+    /Length2 12819
+    /Length3 0
+    /Length 13936
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160625-04'00')"
+    /ModDate "(D:20210413160625-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 781
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<1990520591C8F90F68E29710C44D7EC0> <1990520591C8F90F68E29710C44D7EC0>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 24515
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Jose.Williams)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <1990520591C8F90F68E29710C44D7EC0> <1c90520591C8F90F68E29710C44D7EC0> ]
+    /Length 28
+    /Prev 24515
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 24825\n'
+
+startxref 24943
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 368
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1523
+    /Length2 7640
+    /Length3 0
+    /Length 8648
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1704
+    /Length2 12272
+    /Length3 0
+    /Length 13362
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160652-04'00')"
+    /ModDate "(D:20210413160652-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 769
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<6EADF9531A8F3D365CBE1150769C3CF5> <6EADF9531A8F3D365CBE1150769C3CF5>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 23856
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Jessica.Moody)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <6EADF9531A8F3D365CBE1150769C3CF5> <71ADF9531A8F3D365CBE1150769C3CF5> ]
+    /Length 28
+    /Prev 23856
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 24166\n'
+
+startxref 24284
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 114
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1581
+    /Length2 8384
+    /Length3 0
+    /Length 9415
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160621-04'00')"
+    /ModDate "(D:20210413160621-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 541
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<91ACF467E87C6E62D4E2C9AB0F8C1A96> <91ACF467E87C6E62D4E2C9AB0F8C1A96>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10657
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Kaitlyn.Zimmerman)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <91ACF467E87C6E62D4E2C9AB0F8C1A96> <94ACF467E87C6E62D4E2C9AB0F8C1A96> ]
+    /Length 28
+    /Prev 10657
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10957\n'
+
+startxref 11079
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 1073
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1596
+    /Length2 8449
+    /Length3 0
+    /Length 9482
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1836
+    /Length2 14060
+    /Length3 0
+    /Length 15210
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160703-04'00')"
+    /ModDate "(D:20210413160703-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 788
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<DF508D3070D7BD789B13F2CFAE67FD99> <DF508D3070D7BD789B13F2CFAE67FD99>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 27262
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Jose.Williams)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <DF508D3070D7BD789B13F2CFAE67FD99> <e2508D3070D7BD789B13F2CFAE67FD99> ]
+    /Length 28
+    /Prev 27262
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 27572\n'
+
+startxref 27690
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 985
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1537
+    /Length2 7755
+    /Length3 0
+    /Length 8762
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1822
+    /Length2 13884
+    /Length3 0
+    /Length 15026
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160814-04'00')"
+    /ModDate "(D:20210413160814-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 792
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<5129C43CE54579BD40FBC475A1CFA3D2> <5129C43CE54579BD40FBC475A1CFA3D2>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26274
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Scott.Scott)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <5129C43CE54579BD40FBC475A1CFA3D2> <5429C43CE54579BD40FBC475A1CFA3D2> ]
+    /Length 28
+    /Prev 26274
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26584\n'
+
+startxref 26700
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 114
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1581
+    /Length2 8419
+    /Length3 0
+    /Length 9452
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160659-04'00')"
+    /ModDate "(D:20210413160659-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 542
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<71833F4CCAAF5DDA285BBDF26399E641> <71833F4CCAAF5DDA285BBDF26399E641>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10695
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Kelly.Long)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <71833F4CCAAF5DDA285BBDF26399E641> <74833F4CCAAF5DDA285BBDF26399E641> ]
+    /Length 28
+    /Prev 10695
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10995\n'
+
+startxref 11110
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 99
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1582
+    /Length2 8274
+    /Length3 0
+    /Length 9305
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160808-04'00')"
+    /ModDate "(D:20210413160808-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 543
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<652E872B42503B676DDBE9E0D3FDC38A> <652E872B42503B676DDBE9E0D3FDC38A>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10534
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Anita.Roberts)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <652E872B42503B676DDBE9E0D3FDC38A> <682E872B42503B676DDBE9E0D3FDC38A> ]
+    /Length 28
+    /Prev 10534
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10834\n'
+
+startxref 10952
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 486
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1596
+    /Length2 8477
+    /Length3 0
+    /Length 9519
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1752
+    /Length2 12973
+    /Length3 0
+    /Length 14093
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160701-04'00')"
+    /ModDate "(D:20210413160701-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 783
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<1379BBEF4EC97D7BCF0712998F8E17A4> <1379BBEF4EC97D7BCF0712998F8E17A4>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 25590
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Veronica.Patel)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <1379BBEF4EC97D7BCF0712998F8E17A4> <1679BBEF4EC97D7BCF0712998F8E17A4> ]
+    /Length 28
+    /Prev 25590
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 25900\n'
+
+startxref 26019
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 1035
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1601
+    /Length2 8389
+    /Length3 0
+    /Length 9428
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1794
+    /Length2 13499
+    /Length3 0
+    /Length 14633
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160747-04'00')"
+    /ModDate "(D:20210413160747-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 786
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<6939AD6E1D4768C225601F4FB7359F7E> <6939AD6E1D4768C225601F4FB7359F7E>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26591
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (David.Wilson)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <6939AD6E1D4768C225601F4FB7359F7E> <6c39AD6E1D4768C225601F4FB7359F7E> ]
+    /Length 28
+    /Prev 26591
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26901\n'
+
+startxref 27018
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 786
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1597
+    /Length2 8711
+    /Length3 0
+    /Length 9751
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1780
+    /Length2 13228
+    /Length3 0
+    /Length 14356
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160605-04'00')"
+    /ModDate "(D:20210413160605-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 787
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<01E759A761DB3E2A07B4176E3531E407> <01E759A761DB3E2A07B4176E3531E407>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26389
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Stephanie.Young)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <01E759A761DB3E2A07B4176E3531E407> <04E759A761DB3E2A07B4176E3531E407> ]
+    /Length 28
+    /Prev 26389
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26699\n'
+
+startxref 26819
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 717
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1552
+    /Length2 8039
+    /Length3 0
+    /Length 9065
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1808
+    /Length2 13679
+    /Length3 0
+    /Length 14820
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160835-04'00')"
+    /ModDate "(D:20210413160835-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 786
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<514D6C95E822FD281E77D05FD4CE3895> <514D6C95E822FD281E77D05FD4CE3895>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26097
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Thomas.Hall)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <514D6C95E822FD281E77D05FD4CE3895> <544D6C95E822FD281E77D05FD4CE3895> ]
+    /Length 28
+    /Prev 26097
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26407\n'
+
+startxref 26523
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 358
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1552
+    /Length2 7779
+    /Length3 0
+    /Length 8801
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1705
+    /Length2 12431
+    /Length3 0
+    /Length 13521
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160726-04'00')"
+    /ModDate "(D:20210413160726-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 769
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<128EE623C87AF6E5D78845739AAD9DF7> <128EE623C87AF6E5D78845739AAD9DF7>]
+    /Length 61
+    /Filter /FlateDecode
+  >>
+
+
+startxref 24158
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Travis.Evans)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <128EE623C87AF6E5D78845739AAD9DF7> <158EE623C87AF6E5D78845739AAD9DF7> ]
+    /Length 28
+    /Prev 24158
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 24469\n'
+
+startxref 24586
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 919
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1567
+    /Length2 8131
+    /Length3 0
+    /Length 9160
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1822
+    /Length2 13887
+    /Length3 0
+    /Length 15034
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160614-04'00')"
+    /ModDate "(D:20210413160614-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 788
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<0270AF22F09A03D6549042BCCDF2CD58> <0270AF22F09A03D6549042BCCDF2CD58>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26610
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (William.Lee)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <0270AF22F09A03D6549042BCCDF2CD58> <0570AF22F09A03D6549042BCCDF2CD58> ]
+    /Length 28
+    /Prev 26610
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26920\n'
+
+startxref 27036
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 715
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1611
+    /Length2 8704
+    /Length3 0
+    /Length 9747
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1794
+    /Length2 13517
+    /Length3 0
+    /Length 14644
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160620-04'00')"
+    /ModDate "(D:20210413160620-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 785
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<DB80D2456DC933D520E0782644FAEFF5> <DB80D2456DC933D520E0782644FAEFF5>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26600
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Ian.Duncan)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <DB80D2456DC933D520E0782644FAEFF5> <de80D2456DC933D520E0782644FAEFF5> ]
+    /Length 28
+    /Prev 26600
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26910\n'
+
+startxref 27025
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 117
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1611
+    /Length2 8560
+    /Length3 0
+    /Length 9604
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160634-04'00')"
+    /ModDate "(D:20210413160634-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 547
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<EAD6F0D7B781FB73A2503FF5CF92615D> <EAD6F0D7B781FB73A2503FF5CF92615D>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10855
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Darryl.Harris)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <EAD6F0D7B781FB73A2503FF5CF92615D> <edD6F0D7B781FB73A2503FF5CF92615D> ]
+    /Length 28
+    /Prev 10855
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 11155\n'
+
+startxref 11273
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 98
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1566
+    /Length2 8102
+    /Length3 0
+    /Length 9130
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160733-04'00')"
+    /ModDate "(D:20210413160733-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 542
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<67E9CB99C9865952BBA9F719FE0CF7B3> <67E9CB99C9865952BBA9F719FE0CF7B3>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10357
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Ian.Duncan)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <67E9CB99C9865952BBA9F719FE0CF7B3> <6aE9CB99C9865952BBA9F719FE0CF7B3> ]
+    /Length 28
+    /Prev 10357
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10657\n'
+
+startxref 10772
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 621
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1625
+    /Length2 8921
+    /Length3 0
+    /Length 9973
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1780
+    /Length2 13248
+    /Length3 0
+    /Length 14373
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160828-04'00')"
+    /ModDate "(D:20210413160828-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 786
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<1F8FE9B25687229E9930194C0A9A97B1> <1F8FE9B25687229E9930194C0A9A97B1>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 26462
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Teresa.Williamson)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <1F8FE9B25687229E9930194C0A9A97B1> <228FE9B25687229E9930194C0A9A97B1> ]
+    /Length 28
+    /Prev 26462
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 26772\n'
+
+startxref 26894
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 453
+    /Filter /FlateDecode
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1566
+    /Length2 8236
+    /Length3 0
+    /Length 9261
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1766
+    /Length2 13037
+    /Length3 0
+    /Length 14160
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160712-04'00')"
+    /ModDate "(D:20210413160712-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 6 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 10
+    /First 65
+    /Length 782
+    /Filter /FlateDecode
+  >>
+
+
+obj 16 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 17]
+    /Size 17
+    /W [1 2 1]
+    /Root 14 0 R
+    /Info 15 0 R
+    /ID [<9E317B11D71FFE79F08FAF592E2BEA7B> <9E317B11D71FFE79F08FAF592E2BEA7B>]
+    /Length 60
+    /Filter /FlateDecode
+  >>
+
+
+startxref 25365
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 14 0
+ Type: /Catalog
+ Referencing: 7 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 7 0 R
+  >>
+
+
+obj 15 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Brian.Baker)
+  >>
+
+
+obj 17 0
+ Type: /XRef
+ Referencing: 14 0 R, 15 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 14 2 17 1 ]
+    /Size 18
+    /W [ 1 4 2 ]
+    /Root 14 0 R
+    /ID [ <9E317B11D71FFE79F08FAF592E2BEA7B> <a1317B11D71FFE79F08FAF592E2BEA7B> ]
+    /Length 28
+    /Prev 25365
+    /Info 15 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 25675\n'
+
+startxref 25791
+
+PDF Comment '%%EOF\n'
+
+This program has not been tested with this version of Python (3.8.10)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.5\n'
+
+PDF Comment '%\xd0\xd4\xc5\xd8\n'
+
+obj 3 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 96
+    /Filter /FlateDecode
+  >>
+
+
+obj 8 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length1 1567
+    /Length2 8276
+    /Length3 0
+    /Length 9303
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Producer (pdfTeX-1.40.21)
+    /Creator (TeX)
+    /CreationDate "(D:20210413160600-04'00')"
+    /ModDate "(D:20210413160600-04'00')"
+    /Trapped /False
+    /PTEX.Fullbanner (This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) kpathsea version 6.3.2)
+  >>
+
+
+obj 5 0
+ Type: /ObjStm
+ Referencing: 
+ Contains stream
+
+  <<
+    /Type /ObjStm
+    /N 7
+    /First 40
+    /Length 541
+    /Filter /FlateDecode
+  >>
+
+
+obj 12 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [0 13]
+    /Size 13
+    /W [1 2 1]
+    /Root 10 0 R
+    /Info 11 0 R
+    /ID [<EB71E86FE38BB029DCF44CEDA54ED423> <EB71E86FE38BB029DCF44CEDA54ED423>]
+    /Length 50
+    /Filter /FlateDecode
+  >>
+
+
+startxref 10527
+
+PDF Comment '%%EOF\n'
+
+PDF Comment '%BeginExifToolUpdate\n'
+
+obj 10 0
+ Type: /Catalog
+ Referencing: 6 0 R
+
+  <<
+    /Type /Catalog
+    /Pages 6 0 R
+  >>
+
+
+obj 11 0
+ Type: 
+ Referencing: 
+
+  <<
+    /Creator (Richard.Williams)
+  >>
+
+
+obj 13 0
+ Type: /XRef
+ Referencing: 10 0 R, 11 0 R
+ Contains stream
+
+  <<
+    /Type /XRef
+    /Index [ 0 1 10 2 13 1 ]
+    /Size 14
+    /W [ 1 4 2 ]
+    /Root 10 0 R
+    /ID [ <EB71E86FE38BB029DCF44CEDA54ED423> <ee71E86FE38BB029DCF44CEDA54ED423> ]
+    /Length 28
+    /Prev 10527
+    /Info 11 0 R
+  >>
+
+
+PDF Comment '%EndExifToolUpdate 10827\n'
+
+startxref 10948
+
+PDF Comment '%%EOF\n'
+
