@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story Bank | Writer.HTB</title>
+</head>
+<body class="single single-post">
+<div id="page">
+	<div class="container">
+		<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="/" rel="home">Story Bank</a></h1>
+		</div>
+		<nav id="site-navigation" class="main-navigation">
+		<button class="menu-toggle">Menu</button>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="menu-menu-1-container">
+			<ul id="menu-menu-1" class="menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+		</nav>
+		</header>
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column two-thirds">
+				<main id="main" class="site-main" role="main">
+				{% for result in results %}
+				<article>
+				<header class="entry-header">
+				<h1 class="entry-title">{{ result[2] }}</h1>
+				<div class="entry-meta">
+					<span class="comments-link"><a>By {{ result[1] }} </a></span>
+					<span class="posted-on"><time class="entry-date published">/ {{ result[6] }}</time></span>
+				</div>
+				<div class="entry-thumbnail">					
+					<img src="{{ result[7] }}" alt="">
+				</div>
+				</header>
+				<!-- .entry-header -->
+				<div class="entry-content">
+						{{ result[4] }}
+				</div>
+				<!-- .entry-content -->
+				<footer class="entry-footer">
+					<span class="cat-links">
+					Tagline: {{ result[3] }} 
+					</span>
+				</footer>
+				<!-- .entry-footer -->
+				</article>
+				{% endfor %}
+				<!-- #post-## -->
+				<nav class="navigation post-navigation" role="navigation">
+				<h1 class="screen-reader-text">Post navigation</h1>
+				<div class="nav-links">
+					<div class="nav-previous">
+						<a href="/" rel="prev"><span class="meta-nav">←</span> Thanks for reading!</a>
+					</div>
+				</div>
+				<!-- .nav-links -->
+				</nav>
+				</main>
+				<!-- #main -->
+			</div>
+			<div id="secondary" class="column third">
+				<div id="sidebar-1" class="widget-area" role="complementary">
+					<aside id="text-5" class="widget widget_text">
+					<h4 class="widget-title">About Me</h4>
+					<div class="textwidget">
+						<p>
+							<img src="/img/me.jpg" class="alignleft" style="width:80px;border-radius:50%;margin-bottom:0;"> I'm a professional writer of 10 years. It is a fact that readers will be distracted by the stories I provide.
+						</p>
+					</div>
+					</aside>
+					<aside id="recent-posts-2" class="widget widget_recent_entries">
+					<h4 class="widget-title">Recent Posts</h4>
+					<ul>
+					{% for story in stories %}
+						<li>
+						<a href="/blog/post/{{ story[0] }}">{{ story[2] }}</a>
+						</li>
+					{% endfor %}
+					</ul>
+					</aside>
+				</div>
+				<!-- .widget-area -->
+			</div>
+			<!-- #secondary -->
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<a>&copy; Writer.HTB 2021</a>
+		</div>
+	</div>
+	</footer>
+</div>
+<!-- #page -->
+<script src='/blog/js/jquery.js'></script>
+<script src='/blog/js/plugins.js'></script>
+<script src='/blog/js/scripts.js'></script>
+<script src='/blog/js/masonry.pkgd.min.js'></script>
+</body>
+</html>
