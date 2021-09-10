@@ -1,5 +1,4 @@
 ## Info
----
 
 ### Credential
  User    | Password | Service | Note
@@ -9,9 +8,7 @@ developer|#J!:F9Zt2u|MySQL    |
 
 
 ## Path
----
 ### User 
----
 1. When visiting `http://10.10.11.105/`, we were redirected to `http://horizontall.htb`, so add that to `/etc/hosts`.
 2. Ran `gobuster` and got ban, whoops!
 3. From the icon of the website and the source code, I guessed that the website is built using Vue.
@@ -113,7 +110,6 @@ strapi@horizontall:~/myapi$
 10. The user flag was readable by all users, so got the user flag. (After I reset the box, the permissino didn't change, so maybe it was intended ?)
 
 ### Root 
----
 1. Found MySQL credential at `/opt/strapi/myapi/config/environments/development/database.json`.
 ```
 strapi@horizontall:~/myapi/config/environments/development$ cat database.json
