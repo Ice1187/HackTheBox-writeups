@@ -2,7 +2,7 @@
 ### Credential
  User | Password           | Service | Note
 ------|--------------------|---------|------
-user  |heightofsecurity123!|         |
+user  |heightofsecurity123!|FTP      |
 
 ## Path
 ### User
