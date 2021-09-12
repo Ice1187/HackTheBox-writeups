@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Sun Sep 12 14:53:26 2021 as: nmap -p- -vvvv -oN all-ports.nmap 10.129.217.72
+Increasing send delay for 10.129.217.72 from 0 to 5 due to 57 out of 189 dropped probes since last increase.
+Nmap scan report for forge.htb (10.129.217.72)
+Host is up, received syn-ack (0.32s latency).
+Scanned at 2021-09-12 14:53:26 CST for 747s
+Not shown: 65532 closed ports
+Reason: 65532 conn-refused
+PORT   STATE    SERVICE REASON
+21/tcp filtered ftp     no-response
+22/tcp open     ssh     syn-ack
+80/tcp open     http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Sep 12 15:05:53 2021 -- 1 IP address (1 host up) scanned in 746.65 seconds
