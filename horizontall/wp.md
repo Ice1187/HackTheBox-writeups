@@ -1,5 +1,4 @@
 ## Info
----
 
 ### Credential
  User    | Password | Service | Note
@@ -9,52 +8,50 @@ developer|#J!:F9Zt2u|MySQL    |
 
 
 ## Path
----
 ### User 
----
 1. When visiting `http://10.10.11.105/`, we were redirected to `http://horizontall.htb`, so add that to `/etc/hosts`.
 2. Ran `gobuster` and got ban, whoops!
 3. From the icon of the website and the source code, I guessed that the website is built using Vue.
 ```
 # HTML
- <body>$
-     <noscript><strong>We're sorry but horizontall doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></no    script>$
-     <div id="app"></div>$
-     <script src="/js/chunk-vendors.0e02b89e.js"></script>$
-     <script src="/js/app.c68eb462.js"></script>$
- </body>$
+ <body>
+     <noscript><strong>We're sorry but horizontall doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></no    script>
+     <div id="app"></div>
+     <script src="/js/chunk-vendors.0e02b89e.js"></script>
+     <script src="/js/app.c68eb462.js"></script>
+ </body>
 
 # JS
-y = {$
-    name: "App",$
-    components: {$
-        Navbar: v,$
-        Home: w$
-    },$
-    data: function() {$
-        return {$
-            reviews: []$
-        }$
-    },$
-    methods: {$
-        getReviews: function() {$
-            var t = this;$
-            r.a.get("http://api-prod.horizontall.htb/reviews").then((function(s) {$
-                return t.reviews = s.data$
-            }))$
-        }$
-    }$
+y = {
+    name: "App",
+    components: {
+        Navbar: v,
+        Home: w
+    },
+    data: function() {
+        return {
+            reviews: []
+        }
+    },
+    methods: {
+        getReviews: function() {
+            var t = this;
+            r.a.get("<http://api-prod.horizontall.htb/reviews>").then((function(s) {
+                return t.reviews = s.data
+            }))
+        }
+    }
 }
 ```
 4. From `app.c68eb462.js`, I recovered the base64 encoded image to `b64-img.png`, it was a GitHub icon.
 5. From `app.c68eb462.js`, I found the API URL.
 ```
-getReviews: function() {$
-    var t = this;$
-    r.a.get("http://api-prod.horizontall.htb/reviews").then((function(s) {$
-        return t.reviews = s.data$
-    }))$
-}$
+getReviews: function() {
+    var t = this;
+    r.a.get("<http://api-prod.horizontall.htb/reviews>").then((function(s) {
+        return t.reviews = s.data
+    }))
+}
 ```
 6. Added the API subdomain to `/etc/hosts`, then try to request to the API.
 ```
@@ -86,7 +83,7 @@ $ curl http://api-prod.horizontall.htb/reviews| jq
   }
 ]
 ```
-7. Visiting `http://api-prod.horizontall.htb/admin`, it was a login page and the title read "strapi", which was a "Open Source Nodes.js Headless CMS". Searched on `searchsplot`, it showed strapi might be vulerable to *Password Reset* and *RCE*.
+7. Visiting `http://api-prod.horizontall.htb/admin`, it was a login page and the title read "strapi", which was a "Open Source Nodes.js Headless CMS". Searched on `searchsplot`, it showed  we might be able to reset the password of admin account and get RCE.
 ```
 $ searchsploit strapi
 -------------------------------------------------------------------------------------------------------------------- ---------------------------------
@@ -113,7 +110,6 @@ strapi@horizontall:~/myapi$
 10. The user flag was readable by all users, so got the user flag. (After I reset the box, the permissino didn't change, so maybe it was intended ?)
 
 ### Root 
----
 1. Found MySQL credential at `/opt/strapi/myapi/config/environments/development/database.json`.
 ```
 strapi@horizontall:~/myapi/config/environments/development$ cat database.json
