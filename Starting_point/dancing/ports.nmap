@@ -1,0 +1,30 @@
+# Nmap 7.80 scan initiated Wed Dec  8 20:49:49 2021 as: nmap -sV -sC -oN ports.nmap 10.129.211.92
+Nmap scan report for 10.129.211.92
+Host is up (0.70s latency).
+Scanned at 2021-12-08 20:49:49 CST for 112s
+Not shown: 997 closed ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 4h10m27s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 33297/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 13343/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 48826/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 11678/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-12-08T17:02:02
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec  8 20:51:41 2021 -- 1 IP address (1 host up) scanned in 112.33 seconds

@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Wed Dec  8 20:41:50 2021 as: nmap -oN ports.nmap 10.129.178.83
+Nmap scan report for 10.129.178.83
+Host is up (0.99s latency).
+Scanned at 2021-12-08 20:41:50 CST for 89s
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Dec  8 20:43:19 2021 -- 1 IP address (1 host up) scanned in 88.60 seconds
