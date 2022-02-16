@@ -1,6 +1,6 @@
 ## Path
 ### User
-1. By analysizing the website source code downloaded from the website, we can access the APIs via `10.10.11.120/api`.
+1. By analyzing the website source code downloaded from the website, we can access the APIs via `10.10.11.120/api`.
 2. Found `TOKEN_SECRET` in the past commit of the source.
 ```
 -TOKEN_SECRET = gXr67TtoQL8TShUc8XYsK2HvsBYfyQSFCFZe4MQp7gRpFuMkKjcM72CNQN4fMfbZEKx4i7YiWuNAkmuTcdEriCMm9vPAYkhpwPTiuVwVhvwE
@@ -18,8 +18,7 @@ if (name == 'theadmin'){$
 1. `/opt/count` is executable by the user and the SUID is set.
 2. Since SUID is set, `count` can read directories as root for us.
 3. Since `count` is set to be dumpable by `prctl(PR_SET_DUMPABLE)`, we can dump it while it is waiting for the second input to read files.
-4. According to the man page of `core`, "if the first character of `/proc/sys/kernel/core_pattern` is a pipe symbol (`|`), then the remainder of the line is interpreted as the command-line for a user-space program (or script) that is to be executed.", and "instead of being written to a file, the core dump is given as standard input to the program. So the core dump is fed to `apport`, we can find the dumped info at `/var/crash/_opt_count.1000.crash`.
-"
+4. According to the man page of `core`, "if the first character of `/proc/sys/kernel/core_pattern` is a pipe symbol (`|`), then the remainder of the line is interpreted as the command-line for a user-space program (or script) that is to be executed.", and "instead of being written to a file, the core dump is given as standard input to the program." So the core dump is fed to `apport`, we can find the dumped info at `/var/crash/_opt_count.1000.crash`.
 ```
 dasith@secret:/tmp/.ice1187$ cat /proc/sys/kernel/core_pattern
 |/usr/share/apport/apport %p %s %c %d %P %E
