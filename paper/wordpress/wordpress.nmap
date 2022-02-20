@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Sun Feb 20 19:07:15 2022 as: nmap --script http-wordpress-enum --script-args type=plugins,search-limit=1500 -oN wordpress.nmap 10.10.11.143
+Nmap scan report for office.paper (10.10.11.143)
+Host is up (0.11s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+| http-wordpress-enum: 
+| Search limited to top 1500 themes/plugins
+|   plugins
+|_    stops-core-theme-and-plugin-updates 9.0.9
+443/tcp open  https
+
+# Nmap done at Sun Feb 20 19:07:50 2022 -- 1 IP address (1 host up) scanned in 35.66 seconds

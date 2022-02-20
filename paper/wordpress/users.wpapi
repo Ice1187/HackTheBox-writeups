@@ -1,0 +1,54 @@
+[1;39m[
+  [1;39m{
+    [0m[34;1m"id"[0m[1;39m: [0m[0;39m2[0m[1;39m,
+    [0m[34;1m"name"[0m[1;39m: [0m[0;32m"nick"[0m[1;39m,
+    [0m[34;1m"url"[0m[1;39m: [0m[0;32m""[0m[1;39m,
+    [0m[34;1m"description"[0m[1;39m: [0m[0;32m""[0m[1;39m,
+    [0m[34;1m"link"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/author/nick/"[0m[1;39m,
+    [0m[34;1m"slug"[0m[1;39m: [0m[0;32m"nick"[0m[1;39m,
+    [0m[34;1m"avatar_urls"[0m[1;39m: [0m[1;39m{
+      [0m[34;1m"24"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/4d921edc559205ee514a11de4e8f75cd?s=24&d=mm&r=g"[0m[1;39m,
+      [0m[34;1m"48"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/4d921edc559205ee514a11de4e8f75cd?s=48&d=mm&r=g"[0m[1;39m,
+      [0m[34;1m"96"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/4d921edc559205ee514a11de4e8f75cd?s=96&d=mm&r=g"[0m[1;39m
+    [1;39m}[0m[1;39m,
+    [0m[34;1m"meta"[0m[1;39m: [0m[1;39m[][0m[1;39m,
+    [0m[34;1m"_links"[0m[1;39m: [0m[1;39m{
+      [0m[34;1m"self"[0m[1;39m: [0m[1;39m[
+        [1;39m{
+          [0m[34;1m"href"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/wp-json/wp/v2/users/2"[0m[1;39m
+        [1;39m}[0m[1;39m
+      [1;39m][0m[1;39m,
+      [0m[34;1m"collection"[0m[1;39m: [0m[1;39m[
+        [1;39m{
+          [0m[34;1m"href"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/wp-json/wp/v2/users"[0m[1;39m
+        [1;39m}[0m[1;39m
+      [1;39m][0m[1;39m
+    [1;39m}[0m[1;39m
+  [1;39m}[0m[1;39m,
+  [1;39m{
+    [0m[34;1m"id"[0m[1;39m: [0m[0;39m1[0m[1;39m,
+    [0m[34;1m"name"[0m[1;39m: [0m[0;32m"prisonmike"[0m[1;39m,
+    [0m[34;1m"url"[0m[1;39m: [0m[0;32m""[0m[1;39m,
+    [0m[34;1m"description"[0m[1;39m: [0m[0;32m""[0m[1;39m,
+    [0m[34;1m"link"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/author/prisonmike/"[0m[1;39m,
+    [0m[34;1m"slug"[0m[1;39m: [0m[0;32m"prisonmike"[0m[1;39m,
+    [0m[34;1m"avatar_urls"[0m[1;39m: [0m[1;39m{
+      [0m[34;1m"24"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/d7a04be5a75a979d6ad10d4553f0a087?s=24&d=mm&r=g"[0m[1;39m,
+      [0m[34;1m"48"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/d7a04be5a75a979d6ad10d4553f0a087?s=48&d=mm&r=g"[0m[1;39m,
+      [0m[34;1m"96"[0m[1;39m: [0m[0;32m"http://1.gravatar.com/avatar/d7a04be5a75a979d6ad10d4553f0a087?s=96&d=mm&r=g"[0m[1;39m
+    [1;39m}[0m[1;39m,
+    [0m[34;1m"meta"[0m[1;39m: [0m[1;39m[][0m[1;39m,
+    [0m[34;1m"_links"[0m[1;39m: [0m[1;39m{
+      [0m[34;1m"self"[0m[1;39m: [0m[1;39m[
+        [1;39m{
+          [0m[34;1m"href"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/wp-json/wp/v2/users/1"[0m[1;39m
+        [1;39m}[0m[1;39m
+      [1;39m][0m[1;39m,
+      [0m[34;1m"collection"[0m[1;39m: [0m[1;39m[
+        [1;39m{
+          [0m[34;1m"href"[0m[1;39m: [0m[0;32m"http://office.paper/index.php/wp-json/wp/v2/users"[0m[1;39m
+        [1;39m}[0m[1;39m
+      [1;39m][0m[1;39m
+    [1;39m}[0m[1;39m
+  [1;39m}[0m[1;39m
+[1;39m][0m

@@ -1,0 +1,97 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.20
+                               
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[34m[i][0m Updating the Database ...
+[34m[i][0m File(s) Updated:
+ |  wp_fingerprints.json
+ |  timthumbs-v3.txt
+ |  config_backups.txt
+ |  db_exports.txt
+ |  dynamic_finders.yml
+ |  LICENSE
+ |  sponsor.txt
+[34m[i][0m Update completed.
+
+[32m[+][0m URL: http://office.paper/ [10.10.11.143]
+[32m[+][0m Started: Sun Feb 20 19:16:29 2022
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - Server: Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9
+ |  - X-Powered-By: PHP/7.2.24
+ |  - X-Backend-Server: office.paper
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: http://office.paper/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress version 5.2.3 identified (Insecure, released on 2019-09-05).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://office.paper/index.php/feed/, <generator>https://wordpress.org/?v=5.2.3</generator>
+ |  - http://office.paper/index.php/comments/feed/, <generator>https://wordpress.org/?v=5.2.3</generator>
+
+[32m[+][0m WordPress theme in use: construction-techup
+ | Location: http://office.paper/wp-content/themes/construction-techup/
+ | Last Updated: 2021-07-17T00:00:00.000Z
+ | Readme: http://office.paper/wp-content/themes/construction-techup/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 1.4
+ | Style URL: http://office.paper/wp-content/themes/construction-techup/style.css?ver=1.1
+ | Style Name: Construction Techup
+ | Description: Construction Techup is child theme of Techup a Free WordPress Theme useful for Business, corporate and agency and Trade Institutional based websites. Theme has a full screen option. Theme is developed with creative design having multiple sections on Home Page. Theme has powerful features that let you write articles and blog posts with ease. It uses the best clean Construction practices, responsive HTML5, and on top of that, it is fast, simple, and easy to use. Use the Customizer to add your own background, page layout, site width and more. Theme is useful in NGO, Architecture, Builder, Construction, Technology, Health & Science, Religion, Property dealing and any kind of website. Theme has Slider, feature, callout, services, portfolio, testimonial, Team section. Theme support unlimited colors options too. You can customize logo and can add unlimited pages. Theme is responsive and supports all major plugins of WordPress.
+ | Author: wptexture
+ | Author URI: https://testerwp.com/
+ | Template: techup
+ | License: GNU General Public License v3 or later
+ | License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+ | Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, translation-ready, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
+ | Text Domain: construction-techup
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 1.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://office.paper/wp-content/themes/construction-techup/style.css?ver=1.1, Match: 'Version: 1.1'
+
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m stops-core-theme-and-plugin-updates
+ | Location: http://office.paper/wp-content/plugins/stops-core-theme-and-plugin-updates/
+ | Last Updated: 2022-01-05T11:34:00.000Z
+ | Readme: http://office.paper/wp-content/plugins/stops-core-theme-and-plugin-updates/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 9.0.12
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://office.paper/wp-content/plugins/stops-core-theme-and-plugin-updates/, status: 200
+ |
+ | Version: 9.0.9 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://office.paper/wp-content/plugins/stops-core-theme-and-plugin-updates/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - http://office.paper/wp-content/plugins/stops-core-theme-and-plugin-updates/readme.txt
+
+[33m[!][0m No WPScan API Token given, as a result vulnerability data has not been output.
+[33m[!][0m You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[32m[+][0m Finished: Sun Feb 20 20:26:45 2022
+[32m[+][0m Requests Done: 97007
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 25.564 MB
+[32m[+][0m Data Received: 25.251 MB
+[32m[+][0m Memory used: 407.395 MB
+[32m[+][0m Elapsed time: 01:10:16
