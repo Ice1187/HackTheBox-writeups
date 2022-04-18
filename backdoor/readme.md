@@ -10,7 +10,7 @@ wget http://$ip/wp-content/plugins/ebook-download/filedownload.php?ebookdownload
 
 2. Scan all ports found port 1337 is open.
 3. Connect to port 1337, but nothing happen.
-4. Write the script `read_file.py` to leaverage the file read vuln to find out which process might be running the port 1337, and get its cmdline. The result shows that it is a gdbserver:
+4. Write the script `read_file.py` to leverage the file read vuln to find out which process might be running the port 1337, and get its cmdline. The result shows that it is a gdb server:
 
 ```
 /bin/sh -c while true;do su user -c "cd /home/user;gdbserver --once 0.0.0.0:1337 /bin/true;"; done
