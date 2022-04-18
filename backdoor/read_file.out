@@ -1,0 +1,7 @@
+[*] Port: 842
+842
+/bin/sh-cwhile true;do su user -c "cd /home/user;gdbserver --once 0.0.0.0:1337 /bin/true;"; done
+[*] Port: 843
+843
+/bin/sh-cwhile true;do sleep 1;find /var/run/screen/S-root/ -empty -exec screen -dmS root \;; done
+

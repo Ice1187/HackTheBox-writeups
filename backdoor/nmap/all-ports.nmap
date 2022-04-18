@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Sat Feb 26 03:18:59 2022 as: nmap --min-rate=5000 -p- -vvvvv -oN all-ports.nmap 10.10.11.125
+Warning: 10.10.11.125 giving up on port because retransmission cap hit (10).
+Nmap scan report for backdoor.htb (10.10.11.125)
+Host is up, received syn-ack (0.088s latency).
+Scanned at 2022-02-26 03:18:59 CST for 22s
+Not shown: 63954 closed ports, 1578 filtered ports
+Reason: 63954 conn-refused and 1578 no-responses
+PORT     STATE SERVICE REASON
+22/tcp   open  ssh     syn-ack
+80/tcp   open  http    syn-ack
+1337/tcp open  waste   syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Feb 26 03:19:21 2022 -- 1 IP address (1 host up) scanned in 21.94 seconds

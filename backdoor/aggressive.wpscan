@@ -1,0 +1,28 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.20
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+
+Scan Aborted: The API token provided is invalid
+Trace: /var/lib/gems/2.7.0/gems/wpscan-3.8.20/app/controllers/vuln_api.rb:25:in `before_scan'
+/var/lib/gems/2.7.0/gems/cms_scanner-0.13.6/lib/cms_scanner/controllers.rb:46:in `each'
+/var/lib/gems/2.7.0/gems/cms_scanner-0.13.6/lib/cms_scanner/controllers.rb:46:in `block in run'
+/usr/lib/ruby/2.7.0/timeout.rb:78:in `timeout'
+/var/lib/gems/2.7.0/gems/cms_scanner-0.13.6/lib/cms_scanner/controllers.rb:45:in `run'
+/var/lib/gems/2.7.0/gems/cms_scanner-0.13.6/lib/cms_scanner/scan.rb:24:in `run'
+/var/lib/gems/2.7.0/gems/wpscan-3.8.20/bin/wpscan:17:in `block in <top (required)>'
+/var/lib/gems/2.7.0/gems/cms_scanner-0.13.6/lib/cms_scanner/scan.rb:15:in `initialize'
+/var/lib/gems/2.7.0/gems/wpscan-3.8.20/bin/wpscan:6:in `new'
+/var/lib/gems/2.7.0/gems/wpscan-3.8.20/bin/wpscan:6:in `<top (required)>'
+/usr/local/bin/wpscan:23:in `load'
+/usr/local/bin/wpscan:23:in `<main>'

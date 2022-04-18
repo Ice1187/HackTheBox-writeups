@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Sat Feb 26 02:56:15 2022 as: nmap -sU -vvvvv -oN udp.nmap 10.10.11.125
+Increasing send delay for 10.10.11.125 from 400 to 800 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for backdoor.htb (10.10.11.125)
+Host is up, received echo-reply ttl 63 (0.056s latency).
+All 1000 scanned ports on backdoor.htb (10.10.11.125) are closed because of 1000 port-unreaches
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Feb 26 03:14:20 2022 -- 1 IP address (1 host up) scanned in 1084.48 seconds

@@ -1,0 +1,176 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.20
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: http://10.10.11.125/ [10.10.11.125]
+[32m[+][0m Started: Thu Feb 24 12:50:16 2022
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.41 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://10.10.11.125/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: http://10.10.11.125/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m Upload directory has listing enabled: http://10.10.11.125/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://10.10.11.125/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 5.8.1 identified (Insecure, released on 2021-09-09).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://10.10.11.125/index.php/feed/, <generator>https://wordpress.org/?v=5.8.1</generator>
+ |  - http://10.10.11.125/index.php/comments/feed/, <generator>https://wordpress.org/?v=5.8.1</generator>
+ |
+ | [31m[!][0m 5 vulnerabilities identified:
+ |
+ | [31m[!][0m Title: WordPress < 5.8.2 - Expired DST Root CA X3 Certificate
+ |     Fixed in: 5.8.2
+ |     References:
+ |      - https://wpscan.com/vulnerability/cc23344a-5c91-414a-91e3-c46db614da8d
+ |      - https://wordpress.org/news/2021/11/wordpress-5-8-2-security-and-maintenance-release/
+ |      - https://core.trac.wordpress.org/ticket/54207
+ |
+ | [31m[!][0m Title: WordPress < 5.8.3 - SQL Injection via WP_Query
+ |     Fixed in: 5.8.3
+ |     References:
+ |      - https://wpscan.com/vulnerability/7f768bcf-ed33-4b22-b432-d1e7f95c1317
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21661
+ |      - https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-6676-cqfm-gw84
+ |      - https://hackerone.com/reports/1378209
+ |
+ | [31m[!][0m Title: WordPress < 5.8.3 - Author+ Stored XSS via Post Slugs
+ |     Fixed in: 5.8.3
+ |     References:
+ |      - https://wpscan.com/vulnerability/dc6f04c2-7bf2-4a07-92b5-dd197e4d94c8
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21662
+ |      - https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-699q-3hj9-889w
+ |      - https://hackerone.com/reports/425342
+ |      - https://blog.sonarsource.com/wordpress-stored-xss-vulnerability
+ |
+ | [31m[!][0m Title: WordPress 4.1-5.8.2 - SQL Injection via WP_Meta_Query
+ |     Fixed in: 5.8.3
+ |     References:
+ |      - https://wpscan.com/vulnerability/24462ac4-7959-4575-97aa-a6dcceeae722
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21664
+ |      - https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-jp3p-gw8h-6x86
+ |
+ | [31m[!][0m Title: WordPress < 5.8.3 - Super Admin Object Injection in Multisites
+ |     Fixed in: 5.8.3
+ |     References:
+ |      - https://wpscan.com/vulnerability/008c21ab-3d7e-4d97-b6c3-db9d83f390a7
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21663
+ |      - https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-jmmq-m8p8-332h
+ |      - https://hackerone.com/reports/541469
+
+[32m[+][0m WordPress theme in use: twentyseventeen
+ | Location: http://10.10.11.125/wp-content/themes/twentyseventeen/
+ | Last Updated: 2022-01-25T00:00:00.000Z
+ | Readme: http://10.10.11.125/wp-content/themes/twentyseventeen/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 2.9
+ | Style URL: http://10.10.11.125/wp-content/themes/twentyseventeen/style.css?ver=20201208
+ | Style Name: Twenty Seventeen
+ | Style URI: https://wordpress.org/themes/twentyseventeen/
+ | Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ | License: GNU General Public License v2 or later
+ | License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ | Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns
+ | Text Domain: twentyseventeen
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 2.8 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://10.10.11.125/wp-content/themes/twentyseventeen/style.css?ver=20201208, Match: 'Version: 2.8'
+
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m akismet
+ | Location: http://10.10.11.125/wp-content/plugins/akismet/
+ | Latest Version: 4.2.2
+ | Last Updated: 2022-01-24T16:11:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://10.10.11.125/wp-content/plugins/akismet/, status: 403
+ |
+ | [31m[!][0m 1 vulnerability identified:
+ |
+ | [31m[!][0m Title: Akismet 2.5.0-3.1.4 - Unauthenticated Stored Cross-Site Scripting (XSS)
+ |     Fixed in: 3.1.5
+ |     References:
+ |      - https://wpscan.com/vulnerability/1a2f3094-5970-4251-9ed0-ec595a0cd26c
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9357
+ |      - http://blog.akismet.com/2015/10/13/akismet-3-1-5-wordpress/
+ |      - https://blog.sucuri.net/2015/10/security-advisory-stored-xss-in-akismet-wordpress-plugin.html
+ |
+ | The version could not be determined.
+
+[32m[+][0m ebook-download
+ | Location: http://10.10.11.125/wp-content/plugins/ebook-download/
+ | Last Updated: 2020-03-12T12:52:00.000Z
+ | Readme: http://10.10.11.125/wp-content/plugins/ebook-download/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 1.5
+ | [31m[!][0m Directory listing is enabled
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://10.10.11.125/wp-content/plugins/ebook-download/, status: 200
+ |
+ | [31m[!][0m 1 vulnerability identified:
+ |
+ | [31m[!][0m Title: Ebook Download < 1.2 - Directory Traversal
+ |     Fixed in: 1.2
+ |     References:
+ |      - https://wpscan.com/vulnerability/13d5d17a-00a8-441e-bda1-2fd2b4158a6c
+ |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10924
+ |
+ | Version: 1.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://10.10.11.125/wp-content/plugins/ebook-download/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - http://10.10.11.125/wp-content/plugins/ebook-download/readme.txt
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 4
+ | Requests Remaining: 21
+
+[32m[+][0m Finished: Thu Feb 24 13:42:03 2022
+[32m[+][0m Requests Done: 97001
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 25.932 MB
+[32m[+][0m Data Received: 13.347 MB
+[32m[+][0m Memory used: 386.391 MB
+[32m[+][0m Elapsed time: 00:51:46
