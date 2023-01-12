@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sun Sep  4 20:32:56 2022 as: nmap -p25 --script smtp-commands -vvvvv -oN smpt-cmd.nmap 10.10.11.166
+Nmap scan report for trick.htb (10.10.11.166)
+Host is up, received conn-refused (0.073s latency).
+Scanned at 2022-09-04 20:32:56 CST for 11s
+
+PORT   STATE SERVICE REASON
+25/tcp open  smtp    syn-ack
+|_smtp-commands: debian.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING, 
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Sep  4 20:33:07 2022 -- 1 IP address (1 host up) scanned in 10.89 seconds

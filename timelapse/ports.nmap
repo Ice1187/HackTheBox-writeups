@@ -1,0 +1,45 @@
+# Nmap 7.80 scan initiated Mon Apr 18 19:13:41 2022 as: nmap -sC -sV -oN ports.nmap -vvvvv 10.10.11.152
+Nmap scan report for 10.10.11.152
+Host is up, received echo-reply ttl 127 (0.082s latency).
+Scanned at 2022-04-18 19:13:41 CST for 254s
+Not shown: 991 filtered ports
+Reason: 991 no-responses
+PORT    STATE SERVICE       REASON          VERSION
+53/tcp  open  domain?       syn-ack ttl 127
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+88/tcp  open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2022-04-18 19:13:54Z)
+135/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+445/tcp open  microsoft-ds? syn-ack ttl 127
+464/tcp open  kpasswd5?     syn-ack ttl 127
+593/tcp open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp open  tcpwrapped    syn-ack ttl 127
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=4/18%Time=625D47F8%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03");
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 7h59m58s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 64054/tcp): CLEAN (Timeout)
+|   Check 2 (port 32357/tcp): CLEAN (Timeout)
+|   Check 3 (port 34646/udp): CLEAN (Timeout)
+|   Check 4 (port 22941/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2022-04-18T19:16:19
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr 18 19:17:55 2022 -- 1 IP address (1 host up) scanned in 254.54 seconds

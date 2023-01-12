@@ -1,0 +1,59 @@
+# Nmap 7.80 scan initiated Thu Sep  8 14:52:00 2022 as: nmap -sC -sV -oN ports.nmap -vvvvv 10.10.11.172
+Nmap scan report for 10.10.11.172
+Host is up, received syn-ack (0.15s latency).
+Scanned at 2022-09-08 14:52:00 CST for 40s
+Not shown: 997 closed ports
+Reason: 997 conn-refused
+PORT    STATE SERVICE  REASON  VERSION
+22/tcp  open  ssh      syn-ack OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp  open  http     syn-ack nginx 1.18.0
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0
+|_http-title: Did not follow redirect to http://shared.htb
+443/tcp open  ssl/http syn-ack nginx 1.18.0
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0
+|_http-title: Did not follow redirect to https://shared.htb
+| ssl-cert: Subject: commonName=*.shared.htb/organizationName=HTB/stateOrProvinceName=None/countryName=US/localityName=None
+| Issuer: commonName=*.shared.htb/organizationName=HTB/stateOrProvinceName=None/countryName=US/localityName=None
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-03-20T13:37:14
+| Not valid after:  2042-03-15T13:37:14
+| MD5:   fb0b 4ab4 9ee7 d95d ae43 239a fca4 c59e
+| SHA-1: 6ccd a103 5d29 a441 0aa2 0e32 79c4 83e1 750a d0a0
+| -----BEGIN CERTIFICATE-----
+| MIIDgTCCAmmgAwIBAgIUfRY/CTV1JRpsij80nJ2qVo8C0sUwDQYJKoZIhvcNAQEL
+| BQAwUDELMAkGA1UEBhMCVVMxDTALBgNVBAgMBE5vbmUxDTALBgNVBAcMBE5vbmUx
+| DDAKBgNVBAoMA0hUQjEVMBMGA1UEAwwMKi5zaGFyZWQuaHRiMB4XDTIyMDMyMDEz
+| MzcxNFoXDTQyMDMxNTEzMzcxNFowUDELMAkGA1UEBhMCVVMxDTALBgNVBAgMBE5v
+| bmUxDTALBgNVBAcMBE5vbmUxDDAKBgNVBAoMA0hUQjEVMBMGA1UEAwwMKi5zaGFy
+| ZWQuaHRiMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4vqqZAfqdwC+
+| Bt01RMljAzeU+To4hKQ9PjbDuRzVFNEXgpxC3YAYnDsk+J3r9lsnM1UND7gDuCsN
+| r0Gxb+j5o+T8Qxg6iwn6bR/LgXslpW+laN1EUil2kkINxOCmgNKsGpRBiKl2nzXo
+| DaMGw0zva7n0FIWH7LBebC6E3Ix37hIrKZqQPUlHh0lZdAWg4WWplVXqMXCbGsnR
+| tWt3t0XBnbbKn8PnsChlX7eTxh/SMsh6zKNC7s2qoJYJt9fqcm+sVyIeKVR55nQW
+| obVENYdjJfpXqP+CLE+Y1b9lIEyQ+xRVgzkg7e1trWa0IbM5+gySi0Pk4cM1/W1L
+| PkmdrH/jeQIDAQABo1MwUTAdBgNVHQ4EFgQUybpz156b8qt/qvfSXeo8TBjan/8w
+| HwYDVR0jBBgwFoAUybpz156b8qt/qvfSXeo8TBjan/8wDwYDVR0TAQH/BAUwAwEB
+| /zANBgkqhkiG9w0BAQsFAAOCAQEASF9WK54bYGFb7v92oL4krO+04Qsr+kyuKwwk
+| lDarRxEdG8b63zf6ug9crDCNmmEQF+XL5TsRyIIBdZheYzZnxmeSueKrRq4oLusb
+| LWfsU4vvdUkIp+D6mt9RlT/N7U/LgNZSHLR40V71bAt+gjj98cBAqn5XR0WJY/Eu
+| ecG51FuQe6/7VCKje3tzTZtNtSBleT8Jy3lRkx4pa6GwkY/KiJbXFRqAud8Xdblz
+| 5mhibkaWk8spaNxc6S6V7xyMC/kjcznfEKHVvocL32kUZfaN8Af9XaVN9UYhecu/
+| znFVUvL3buLlMUy7TLdw4bJNJUdFXviq++Gu/n1uER6nSLMwGw==
+|_-----END CERTIFICATE-----
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep  8 14:52:40 2022 -- 1 IP address (1 host up) scanned in 40.27 seconds

@@ -1,0 +1,38 @@
+# Nmap 7.80 scan initiated Thu Nov 10 14:44:54 2022 as: nmap -sC -sV -oN ports.nmap -vvvvv 10.10.11.186
+Nmap scan report for metapress.htb (10.10.11.186)
+Host is up, received syn-ack (0.16s latency).
+Scanned at 2022-11-10 14:44:54 CST for 80s
+Not shown: 997 closed ports
+Reason: 997 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+21/tcp open  ftp     syn-ack
+| fingerprint-strings: 
+|   GenericLines: 
+|     220 ProFTPD Server (Debian) [::ffff:10.10.11.186]
+|     Invalid command: try being more creative
+|_    Invalid command: try being more creative
+22/tcp open  ssh     syn-ack OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp open  http    syn-ack nginx 1.18.0
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-generator: WordPress 5.6.2
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+|_http-server-header: nginx/1.18.0
+|_http-title: MetaPress &#8211; Official company site
+|_http-trane-info: Problem with XML parsing of /evox/about
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port21-TCP:V=7.80%I=7%D=11/10%Time=636C9E01%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,8F,"220\x20ProFTPD\x20Server\x20\(Debian\)\x20\[::ffff:10\.10
+SF:\.11\.186\]\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20cr
+SF:eative\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20creativ
+SF:e\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 10 14:46:14 2022 -- 1 IP address (1 host up) scanned in 80.21 seconds

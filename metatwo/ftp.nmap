@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Thu Nov 10 14:54:01 2022 as: nmap --script ftp-* -p 21 -vvvv -oN ftp.nmap 10.10.11.186
+Nmap scan report for metapress.htb (10.10.11.186)
+Host is up, received syn-ack (0.061s latency).
+Scanned at 2022-11-10 14:54:01 CST for 192255s
+
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack
+| ftp-brute: 
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 2267259 guesses in 192255 seconds, average tps: 11.8
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Nov 12 20:18:16 2022 -- 1 IP address (1 host up) scanned in 192255.47 seconds

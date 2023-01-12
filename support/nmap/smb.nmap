@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Wed Aug 17 21:09:17 2022 as: nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse -oN smb.nmap 10.10.11.174
+Nmap scan report for support.htb (10.10.11.174)
+Host is up (0.15s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+# Nmap done at Wed Aug 17 21:09:23 2022 -- 1 IP address (1 host up) scanned in 6.36 seconds

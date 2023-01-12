@@ -1,0 +1,12 @@
+# Nmap 7.80 scan initiated Sun Sep  4 20:55:54 2022 as: nmap -p25 --script smtp-enum-users.nse -vvvvv -oN smpt-enum-users.nmap 10.10.11.166
+Nmap scan report for trick.htb (10.10.11.166)
+Host is up, received syn-ack (0.079s latency).
+Scanned at 2022-09-04 20:55:54 CST for 11s
+
+PORT   STATE SERVICE REASON
+25/tcp open  smtp    syn-ack
+| smtp-enum-users: 
+|_  Method RCPT returned a unhandled status code.
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Sep  4 20:56:05 2022 -- 1 IP address (1 host up) scanned in 11.31 seconds

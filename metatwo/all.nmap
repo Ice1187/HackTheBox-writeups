@@ -1,0 +1,59 @@
+# Nmap 7.80 scan initiated Thu Nov 10 14:57:56 2022 as: nmap -p- -vvvvv -oN all.nmap 10.10.11.186
+Nmap scan report for metapress.htb (10.10.11.186)
+Host is up, received syn-ack (0.13s latency).
+Scanned at 2022-11-10 14:57:56 CST for 595s
+Not shown: 65486 closed ports
+Reason: 65486 conn-refused
+PORT      STATE    SERVICE        REASON
+21/tcp    open     ftp            syn-ack
+22/tcp    open     ssh            syn-ack
+80/tcp    open     http           syn-ack
+217/tcp   filtered dbase          no-response
+407/tcp   filtered timbuktu       no-response
+846/tcp   filtered unknown        no-response
+955/tcp   filtered unknown        no-response
+1335/tcp  filtered digital-notary no-response
+2263/tcp  filtered ecwcfg         no-response
+2312/tcp  filtered wanscaler      no-response
+2763/tcp  filtered desktop-dna    no-response
+4619/tcp  filtered unknown        no-response
+12425/tcp filtered unknown        no-response
+15735/tcp filtered unknown        no-response
+17031/tcp filtered unknown        no-response
+18000/tcp filtered biimenu        no-response
+20148/tcp filtered unknown        no-response
+20199/tcp filtered unknown        no-response
+21146/tcp filtered unknown        no-response
+21911/tcp filtered unknown        no-response
+23583/tcp filtered unknown        no-response
+28464/tcp filtered unknown        no-response
+31665/tcp filtered unknown        no-response
+33558/tcp filtered unknown        no-response
+34425/tcp filtered unknown        no-response
+34854/tcp filtered unknown        no-response
+36280/tcp filtered unknown        no-response
+38482/tcp filtered unknown        no-response
+39084/tcp filtered unknown        no-response
+39401/tcp filtered unknown        no-response
+39419/tcp filtered unknown        no-response
+39595/tcp filtered unknown        no-response
+41155/tcp filtered unknown        no-response
+41509/tcp filtered unknown        no-response
+42247/tcp filtered unknown        no-response
+44539/tcp filtered unknown        no-response
+46640/tcp filtered unknown        no-response
+48400/tcp filtered unknown        no-response
+48515/tcp filtered unknown        no-response
+50546/tcp filtered unknown        no-response
+50578/tcp filtered unknown        no-response
+51337/tcp filtered unknown        no-response
+53611/tcp filtered unknown        no-response
+53740/tcp filtered unknown        no-response
+55010/tcp filtered unknown        no-response
+58576/tcp filtered unknown        no-response
+60555/tcp filtered unknown        no-response
+62106/tcp filtered unknown        no-response
+63070/tcp filtered unknown        no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Nov 10 15:07:51 2022 -- 1 IP address (1 host up) scanned in 595.47 seconds

@@ -1,0 +1,57 @@
+# Nmap 7.80 scan initiated Thu Feb 17 14:50:07 2022 as: nmap -sC -sV -oN ports.nmap -vvvvvv 10.10.11.114
+Nmap scan report for 10.10.11.114
+Host is up, received syn-ack (0.17s latency).
+Scanned at 2022-02-17 14:50:07 CST for 34s
+Not shown: 997 closed ports
+Reason: 997 conn-refused
+PORT    STATE SERVICE  REASON  VERSION
+22/tcp  open  ssh      syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http     syn-ack nginx 1.18.0 (Ubuntu)
+|_http-favicon: Unknown favicon MD5: 76362BB7970721417C5F484705E5045D
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title:     Starter Website -  About 
+443/tcp open  ssl/http syn-ack nginx 1.18.0 (Ubuntu)
+|_http-favicon: Unknown favicon MD5: 82C6406C68D91356C9A729ED456EECF4
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+| http-title: Passbolt | Open source password manager for teams
+|_Requested resource was /auth/login?redirect=%2F
+| ssl-cert: Subject: commonName=passbolt.bolt.htb/organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=AU
+| Issuer: commonName=passbolt.bolt.htb/organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=AU
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-02-24T19:11:23
+| Not valid after:  2022-02-24T19:11:23
+| MD5:   3ac3 4f7c ee22 88de 7967 fe85 8c42 afc6
+| SHA-1: c606 ca92 404f 2f04 6231 68be c4c4 644f e9ed f132
+| -----BEGIN CERTIFICATE-----
+| MIIDozCCAougAwIBAgIUWYR6DcMDhx5i4CpQ5qkkspuUULAwDQYJKoZIhvcNAQEL
+| BQAwYTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoM
+| GEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEaMBgGA1UEAwwRcGFzc2JvbHQuYm9s
+| dC5odGIwHhcNMjEwMjI0MTkxMTIzWhcNMjIwMjI0MTkxMTIzWjBhMQswCQYDVQQG
+| EwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lk
+| Z2l0cyBQdHkgTHRkMRowGAYDVQQDDBFwYXNzYm9sdC5ib2x0Lmh0YjCCASIwDQYJ
+| KoZIhvcNAQEBBQADggEPADCCAQoCggEBALPBsFKzUPba5tHWW85u/Do3CkSsUgWN
+| Wp5ZShD3T3hRX+vxFjv0zVZaccLhY8gsoTaklvFZVrguU6rIKHCFpRt7JLSPCmx3
+| /Dy8id1Fm3VgRStVcMdXFnWne3lZaw9cSqdAxzb6ZcERAZRlIOPj29zO5UIwvwTW
+| FJwybndHlxZ9Y8TUT7O1z5FFNKMl/QP6DBdkDDTc+OQ9ObyYHd6zBdwfuJykX8Md
+| 3ejO1n38j8zXhzB/DEwKVKqFqvm7K28OBOouOaHnqM5vO5OVEVNyeZhaOtX1UrOm
+| c+B8RSHDU7Y7/6sbNxJGuwpJZtovUa+2HybDRJl92vnNeouddrdFZc0CAwEAAaNT
+| MFEwHQYDVR0OBBYEFCjzBazWUuLcpQnqbcDsisjmzvYzMB8GA1UdIwQYMBaAFCjz
+| BazWUuLcpQnqbcDsisjmzvYzMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEL
+| BQADggEBAA2qDGXEgqNsf4XqYqK+TLg+pRJ/rrdAFtxNwn8MYQv4ZlyouQsN2zPm
+| t/dXls0iba1KvgYrt5QGWGODI8IkaujEDC452ktOmmi9+EnpK9DjKoKfCTL4N/ta
+| xDZxR4qHrk35QVYB8jYVP8S98gu5crTkAo9TGiHoEKPvinx+pA9IHtynqh9pBbuV
+| /micD+zMBVlZ50MILbcXqsBHRxHN4pmbcfc4yEOanNVJD3hmGchcyAFx2RLPsl36
+| +QrGlwqpP7Bn7wzVCuxzQUWlA9VwVZKHYVVvCekvVP9DKL6FfI5avLgJJujQTqKw
+| +uYRUUWj+CdI1oxxYt0SdimXHr81SgE=
+|_-----END CERTIFICATE-----
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 17 14:50:41 2022 -- 1 IP address (1 host up) scanned in 34.61 seconds
